@@ -480,7 +480,7 @@ class TestReadmeConsistency(unittest.TestCase):
     def test_readme_matches_generated_output(self):
         """Test that readme.md is up-to-date with projects.json and readme.tpl."""
         # Read the current readme.md
-        with open("readme.md", "r", encoding="utf-8") as f:
+        with open("README.md", "r", encoding="utf-8") as f:
             current_readme = f.read()
 
         # Generate a new readme to a temporary file
