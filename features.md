@@ -72,15 +72,11 @@ Can user roles and permissions be defined and managed?
 
 ## Encryption
 
-Does the platform provide end-to-end encryption for messages and data?
+Does the platform provide encryption for messages and data?
 
 ## Ease of Setup
 
 How easy is it to set up and deploy the platform, including self-hosting requirements?
-
-## Casual Vote
-
-Can users vote on messages or content in a casual manner (e.g., reactions)?
 
 ## Screensharing
 
