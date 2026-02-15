@@ -529,6 +529,22 @@ class TestValidateProjectsJson(unittest.TestCase):
         except ValueError:
             self.fail("validate_projects_json raised ValueError for valid data")
 
+    def _assert_validation_error(self, data, *expected_strings):
+        """Helper method to assert validation errors with expected output strings."""
+        captured_output = StringIO()
+        sys.stdout = captured_output
+
+        try:
+            with self.assertRaises(ValueError):
+                validate_projects_json(data)
+        finally:
+            sys.stdout = sys.__stdout__
+
+        output = captured_output.getvalue()
+        for s in expected_strings:
+            self.assertIn(s, output)
+        return output
+
     def test_missing_required_field_detected(self):
         """Test that missing required fields are detected."""
         data = {
@@ -543,19 +559,7 @@ class TestValidateProjectsJson(unittest.TestCase):
             "features": [],
         }
 
-        # Capture stdout
-        captured_output = StringIO()
-        sys.stdout = captured_output
-
-        try:
-            with self.assertRaises(ValueError):
-                validate_projects_json(data)
-        finally:
-            sys.stdout = sys.__stdout__
-
-        output = captured_output.getvalue()
-        self.assertIn("missing fields", output)
-        self.assertIn("repo", output)
+        self._assert_validation_error(data, "missing fields", "repo")
 
     def test_multiple_missing_fields_detected(self):
         """Test that multiple missing fields are detected."""
@@ -569,18 +573,7 @@ class TestValidateProjectsJson(unittest.TestCase):
             "features": [],
         }
 
-        # Capture stdout
-        captured_output = StringIO()
-        sys.stdout = captured_output
-
-        try:
-            with self.assertRaises(ValueError):
-                validate_projects_json(data)
-        finally:
-            sys.stdout = sys.__stdout__
-
-        output = captured_output.getvalue()
-        self.assertIn("missing fields", output)
+        self._assert_validation_error(data, "missing fields")
 
     def test_unmapped_key_detected(self):
         """Test that unmapped keys are detected."""
@@ -597,19 +590,7 @@ class TestValidateProjectsJson(unittest.TestCase):
             "features": [],
         }
 
-        # Capture stdout
-        captured_output = StringIO()
-        sys.stdout = captured_output
-
-        try:
-            with self.assertRaises(ValueError):
-                validate_projects_json(data)
-        finally:
-            sys.stdout = sys.__stdout__
-
-        output = captured_output.getvalue()
-        self.assertIn("not mapped to any feature", output)
-        self.assertIn("invalid_key", output)
+        self._assert_validation_error(data, "not mapped to any feature", "invalid_key")
 
     def test_multiple_unmapped_keys_detected(self):
         """Test that multiple unmapped keys are detected."""
@@ -627,20 +608,7 @@ class TestValidateProjectsJson(unittest.TestCase):
             "features": [],
         }
 
-        # Capture stdout
-        captured_output = StringIO()
-        sys.stdout = captured_output
-
-        try:
-            with self.assertRaises(ValueError):
-                validate_projects_json(data)
-        finally:
-            sys.stdout = sys.__stdout__
-
-        output = captured_output.getvalue()
-        self.assertIn("2 project key(s) not mapped", output)
-        self.assertIn("invalid_key_1", output)
-        self.assertIn("invalid_key_2", output)
+        self._assert_validation_error(data, "2 project key(s) not mapped", "invalid_key_1", "invalid_key_2")
 
     def test_unmapped_keys_show_correct_projects(self):
         """Test that error messages show which projects have unmapped keys."""
@@ -670,18 +638,7 @@ class TestValidateProjectsJson(unittest.TestCase):
             "features": [],
         }
 
-        # Capture stdout
-        captured_output = StringIO()
-        sys.stdout = captured_output
-
-        try:
-            with self.assertRaises(ValueError):
-                validate_projects_json(data)
-        finally:
-            sys.stdout = sys.__stdout__
-
-        output = captured_output.getvalue()
-        self.assertIn("bad_key", output)
+        output = self._assert_validation_error(data, "bad_key")
         # Check that the line with bad_key contains both App1 and App3
         bad_key_line = [line for line in output.split("\n") if "bad_key" in line][0]
         self.assertIn("App1", bad_key_line)
@@ -709,20 +666,7 @@ class TestValidateProjectsJson(unittest.TestCase):
             "features": [],
         }
 
-        # Capture stdout
-        captured_output = StringIO()
-        sys.stdout = captured_output
-
-        try:
-            with self.assertRaises(ValueError):
-                validate_projects_json(data)
-        finally:
-            sys.stdout = sys.__stdout__
-
-        output = captured_output.getvalue()
-        # Should mention both types of errors
-        self.assertIn("missing fields", output)
-        self.assertIn("not mapped to any feature", output)
+        self._assert_validation_error(data, "missing fields", "not mapped to any feature")
 
     def test_standard_keys_not_flagged(self):
         """Test that standard keys don't trigger validation errors."""
@@ -797,9 +741,29 @@ class TestValidateProjectsJson(unittest.TestCase):
 class TestGenerateReadme(unittest.TestCase):
     """Test cases for the generate_readme function."""
 
+    def _test_generate_readme_with_data(self, template_data, json_data, assertion_func):
+        """Helper method to test generate_readme with temp files."""
+        with tempfile.NamedTemporaryFile(mode="w", suffix=".tpl", delete=False) as tf:
+            tf.write(template_data)
+            template_file = tf.name
+
+        with tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False) as jf:
+            json.dump(json_data, jf)
+            json_file = jf.name
+
+        output_file = tempfile.mktemp(suffix=".md")
+
+        try:
+            generate_readme(template_file, output_file, json_file)
+            assertion_func(output_file)
+        finally:
+            os.unlink(template_file)
+            os.unlink(json_file)
+            if os.path.exists(output_file):
+                os.unlink(output_file)
+
     def test_generate_readme_creates_file(self):
         """Test that generate_readme creates output file."""
-        # Create temporary files
         template_data = "# Test\n\n{{COMPARISON_TABLE}}\n\nEnd"
         json_data = {
             "projects": [
@@ -814,35 +778,20 @@ class TestGenerateReadme(unittest.TestCase):
             "features": [],
         }
 
-        with tempfile.NamedTemporaryFile(mode="w", suffix=".tpl", delete=False) as tf:
-            tf.write(template_data)
-            template_file = tf.name
-
-        with tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False) as jf:
-            json.dump(json_data, jf)
-            json_file = jf.name
-
-        output_file = tempfile.mktemp(suffix=".md")
-
-        try:
-            generate_readme(template_file, output_file, json_file)
-
+        def assertions(output_file):
             # Check output file exists
             self.assertTrue(os.path.exists(output_file))
 
             # Check content
-            with open(output_file, "r") as f:
+            with open(output_file, "r", encoding="utf-8") as f:
                 content = f.read()
 
             self.assertIn("# Test", content)
             self.assertIn("End", content)
             self.assertNotIn("{{COMPARISON_TABLE}}", content)
             self.assertIn("| Feature ", content)
-        finally:
-            os.unlink(template_file)
-            os.unlink(json_file)
-            if os.path.exists(output_file):
-                os.unlink(output_file)
+
+        self._test_generate_readme_with_data(template_data, json_data, assertions)
 
     def test_generate_readme_replaces_placeholder(self):
         """Test that generate_readme replaces the placeholder correctly."""
@@ -859,20 +808,8 @@ class TestGenerateReadme(unittest.TestCase):
             "features": [{"name": "Feature", "link": "features.md#f"}],
         }
 
-        with tempfile.NamedTemporaryFile(mode="w", suffix=".tpl", delete=False) as tf:
-            tf.write(template_data)
-            template_file = tf.name
-
-        with tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False) as jf:
-            json.dump(json_data, jf)
-            json_file = jf.name
-
-        output_file = tempfile.mktemp(suffix=".md")
-
-        try:
-            generate_readme(template_file, output_file, json_file)
-
-            with open(output_file, "r") as f:
+        def assertions(output_file):
+            with open(output_file, "r", encoding="utf-8") as f:
                 content = f.read()
 
             self.assertIn("Before", content)
@@ -882,11 +819,8 @@ class TestGenerateReadme(unittest.TestCase):
             # Should contain table elements
             self.assertIn("| Feature ", content)
             self.assertIn("| [Test](https://github.com/user/test)", content)
-        finally:
-            os.unlink(template_file)
-            os.unlink(json_file)
-            if os.path.exists(output_file):
-                os.unlink(output_file)
+
+        self._test_generate_readme_with_data(template_data, json_data, assertions)
 
 
 if __name__ == "__main__":
