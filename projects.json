@@ -1,0 +1,148 @@
+{
+  "projects": [
+    {
+      "name": "Sharkord",
+      "repo": "Sharkord/sharkord",
+      "branch": "main",
+      "logo_url": "https://sharkord.com/_next/image?url=%2Flogo.webp&w=48&q=75",
+      "logo_alt": "Sharkord Logo",
+      "demo": "9",
+      "demo_url": "https://demo.sharkord.com/",
+      "freeness": "10",
+      "web_app": "8",
+      "android_app": "x",
+      "ios_app": "x",
+      "desktop_app": "x",
+      "voice_chat": "7",
+      "video_chat": "7",
+      "file_sharing": "8",
+      "channels_rooms": "7",
+      "user_roles_permissions": "7",
+      "encryption": "5",
+      "ease_of_setup": "7",
+      "screensharing": "8",
+      "plugins": "4",
+      "stability": "5",
+      "authentication_providers": "x",
+      "translation": "x"
+    }
+  ],
+  "features": [
+    {
+      "name": "Logo",
+      "link": null,
+      "processor": "generate_logo_row"
+    },
+    {
+      "name": "Github Stars",
+      "link": "features.md#github-stars",
+      "processor": "generate_badge_row",
+      "badge_template": "![?](https://img.shields.io/github/stars/{repo}?label=%20)"
+    },
+    {
+      "name": "Contributors",
+      "link": "features.md#contributors",
+      "processor": "generate_badge_row",
+      "badge_template": "![?](https://img.shields.io/github/contributors/{repo}?label=%20)",
+      "use_lowercase": true
+    },
+    {
+      "name": "Last Commit",
+      "link": "features.md#last-commit",
+      "processor": "generate_badge_row",
+      "badge_template": "![?](https://img.shields.io/github/last-commit/{repo}/{branch}?label=%20)",
+      "use_lowercase": true,
+      "use_branch": true
+    },
+    {
+      "name": "Source Language",
+      "link": "features.md#source-language",
+      "processor": "generate_badge_row",
+      "badge_template": "![GitHub top language](https://img.shields.io/github/languages/top/{repo})",
+      "use_lowercase": true
+    },
+    {
+      "name": "License",
+      "link": "features.md#license",
+      "processor": "generate_license_row"
+    },
+    {
+      "name": "Current Version",
+      "link": "features.md#current-version",
+      "processor": "generate_badge_row",
+      "badge_template": "![?](https://img.shields.io/github/v/release/{repo}?label=%20)"
+    },
+    {
+      "name": "Demo",
+      "link": "features.md#demo"
+    },
+    {
+      "name": "Freeness",
+      "link": "features.md#freeness"
+    },
+    {
+      "name": "Web App",
+      "link": "features.md#web-app"
+    },
+    {
+      "name": "Android App",
+      "link": "features.md#android-app"
+    },
+    {
+      "name": "iOS App",
+      "link": "features.md#ios-app"
+    },
+    {
+      "name": "Desktop App",
+      "link": "features.md#desktop-app"
+    },
+    {
+      "name": "Voice Chat",
+      "link": "features.md#voice-chat"
+    },
+    {
+      "name": "Video Chat",
+      "link": "features.md#video-chat"
+    },
+    {
+      "name": "File Sharing",
+      "link": "features.md#file-sharing"
+    },
+    {
+      "name": "Channels/Rooms",
+      "link": "features.md#channels-rooms"
+    },
+    {
+      "name": "User Roles/Permissions",
+      "link": "features.md#user-roles-permissions"
+    },
+    {
+      "name": "Encryption",
+      "link": "features.md#encryption"
+    },
+    {
+      "name": "Ease of Setup",
+      "link": "features.md#ease-of-setup"
+    },
+    {
+      "name": "Screensharing",
+      "link": "features.md#screensharing"
+    },
+    {
+      "name": "Plugins",
+      "link": "features.md#plugins"
+    },
+    {
+      "name": "Stability",
+      "link": "features.md#stability"
+    },
+    {
+      "name": "Authentication Providers",
+      "link": "features.md#authentication-providers"
+    },
+    {
+      "name": "Translation",
+      "link": "features.md#translation"
+    }
+  ]
+}
