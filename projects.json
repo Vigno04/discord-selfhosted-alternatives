@@ -51,6 +51,31 @@
       "stability": "5",
       "authentication_providers": "x",
       "translation": "4"
+    },
+    {
+      "name": "Sunburn",
+      "repo": "sunburnco/sunburn",
+      "branch": "master",
+      "logo_url": "https://avatars.githubusercontent.com/u/219320217",
+      "logo_alt": "Sunburn logo",
+      "demo": "x",
+      "freeness": "10",
+      "web_app": "6",
+      "android_app": "x",
+      "ios_app": "x",
+      "desktop_app": "x",
+      "voice_chat": "6",
+      "video_chat": "6",
+      "file_sharing": "6",
+      "channels_rooms": "7",
+      "user_roles_permissions": "6",
+      "encryption": "5",
+      "ease_of_setup": "5",
+      "screensharing": "6",
+      "plugins": "x",
+      "stability": "5",
+      "authentication_providers": "5",
+      "translation": "x"
     }
   ],
   "features": [
