@@ -18,7 +18,7 @@ Tip: Hover over emoji for additional information (🔗 link to related issue, �
 
 **Note:** This list is by no means comprehensive and is provided on a best efforts basis. No guarantees are made to its accuracy or completeness. If you see an error or inaccuracy, please report it and contribute a fix if you can!
 
-## 👋 More Feature Comparisons
+## 👋 Original format creator
 
 Check out the original project that inspired this format:
 

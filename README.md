@@ -14,38 +14,38 @@ There are many great free and open-source alternatives to closed-source and/or p
 Tip: Hover over emoji for additional information (🔗 link to related issue, 🔑 demo credentials, etc)
 ```
 
-| Feature | [Sharkord](https://github.com/Sharkord/sharkord) |
-| :------- | ------------------------------------------------ |
-| Logo | <img src="https://sharkord.com/_next/image?url=%2Flogo.webp&w=48&q=75" style="width: 50px"  alt="Sharkord Logo"/> |
-| [Github Stars](features.md#github-stars) | ![?](https://img.shields.io/github/stars/Sharkord/sharkord?label=%20) |
-| [Contributors](features.md#contributors) | ![?](https://img.shields.io/github/contributors/sharkord/sharkord?label=%20) |
-| [Last Commit](features.md#last-commit) | ![?](https://img.shields.io/github/last-commit/sharkord/sharkord/main?label=%20) |
-| [Source Language](features.md#source-language) | ![GitHub top language](https://img.shields.io/github/languages/top/sharkord/sharkord) |
-| [License](features.md#license) | ![?](https://img.shields.io/github/license/Sharkord/sharkord?label=%20) |
-| [Current Version](features.md#current-version) | ![?](https://img.shields.io/github/v/release/Sharkord/sharkord?label=%20) |
-| [Demo](features.md#demo) | [✅9️⃣](https://demo.sharkord.com/) |
-| [Freeness](features.md#freeness) | ✅🔟 |
-| [Web App](features.md#web-app) | ✅8️⃣ |
-| [Android App](features.md#android-app) | ❌ |
-| [iOS App](features.md#ios-app) | ❌ |
-| [Desktop App](features.md#desktop-app) | ❌ |
-| [Voice Chat](features.md#voice-chat) | ✅7️⃣ |
-| [Video Chat](features.md#video-chat) | ✅7️⃣ |
-| [File Sharing](features.md#file-sharing) | ✅8️⃣ |
-| [Channels/Rooms](features.md#channels-rooms) | ✅7️⃣ |
-| [User Roles/Permissions](features.md#user-roles-permissions) | ✅7️⃣ |
-| [Encryption](features.md#encryption) | ✅5️⃣ |
-| [Ease of Setup](features.md#ease-of-setup) | ✅7️⃣ |
-| [Screensharing](features.md#screensharing) | ✅8️⃣ |
-| [Plugins](features.md#plugins) | ✅4️⃣ |
-| [Stability](features.md#stability) | ✅5️⃣ |
-| [Authentication Providers](features.md#authentication-providers) | ❌ |
-| [Translation](features.md#translation) | ❌ |
+| Feature | [Sharkord](https://github.com/Sharkord/sharkord) | [Spacebar](https://github.com/spacebarchat/server) |
+| :------- | ------------------------------------------------ | -------------------------------------------------- |
+| Logo | <img src="https://sharkord.com/_next/image?url=%2Flogo.webp&w=48&q=75" style="width: 50px"  alt="Sharkord Logo"/> | <img src="https://raw.githubusercontent.com/spacebarchat/spacebarchat/master/branding/svg/Spacebar__Icon-Rounded.svg" style="width: 50px"  alt="Spacebar Logo"/> |
+| [Github Stars](features.md#github-stars) | ![?](https://img.shields.io/github/stars/Sharkord/sharkord?label=%20) | ![?](https://img.shields.io/github/stars/spacebarchat/server?label=%20) |
+| [Contributors](features.md#contributors) | ![?](https://img.shields.io/github/contributors/sharkord/sharkord?label=%20) | ![?](https://img.shields.io/github/contributors/spacebarchat/server?label=%20) |
+| [Last Commit](features.md#last-commit) | ![?](https://img.shields.io/github/last-commit/sharkord/sharkord/main?label=%20) | ![?](https://img.shields.io/github/last-commit/spacebarchat/server/master?label=%20) |
+| [Source Language](features.md#source-language) | ![GitHub top language](https://img.shields.io/github/languages/top/sharkord/sharkord) | ![GitHub top language](https://img.shields.io/github/languages/top/spacebarchat/server) |
+| [License](features.md#license) | ![?](https://img.shields.io/github/license/Sharkord/sharkord?label=%20) | ![?](https://img.shields.io/github/license/spacebarchat/server?label=%20) |
+| [Current Version](features.md#current-version) | ![?](https://img.shields.io/github/v/release/Sharkord/sharkord?label=%20) | ![?](https://img.shields.io/github/v/release/spacebarchat/server?label=%20) |
+| [Demo](features.md#demo) | [✅9️⃣](https://demo.sharkord.com/) | [✅7️⃣](https://fermi.chat/app) |
+| [Freeness](features.md#freeness) | ✅🔟 | ✅🔟 |
+| [Web App](features.md#web-app) | ✅7️⃣ | ✅6️⃣ |
+| [Android App](features.md#android-app) | ❌ | ❌ |
+| [iOS App](features.md#ios-app) | ❌ | ❌ |
+| [Desktop App](features.md#desktop-app) | ❌ | ❌ |
+| [Voice Chat](features.md#voice-chat) | ✅7️⃣ | 🚧4️⃣ |
+| [Video Chat](features.md#video-chat) | ✅7️⃣ | 🚧4️⃣ |
+| [File Sharing](features.md#file-sharing) | ✅8️⃣ | ✅7️⃣ |
+| [Channels/Rooms](features.md#channels-rooms) | ✅7️⃣ | ✅7️⃣ |
+| [User Roles/Permissions](features.md#user-roles-permissions) | ✅7️⃣ | ✅5️⃣ |
+| [Encryption](features.md#encryption) | ✅5️⃣ | ✅5️⃣ |
+| [Ease of Setup](features.md#ease-of-setup) | ✅7️⃣ | ✅6️⃣ |
+| [Screensharing](features.md#screensharing) | ✅8️⃣ | ❌ |
+| [Plugins](features.md#plugins) | ✅4️⃣ | ✅6️⃣ |
+| [Stability](features.md#stability) | ✅5️⃣ | ✅5️⃣ |
+| [Authentication Providers](features.md#authentication-providers) | ❌ | ❌ |
+| [Translation](features.md#translation) | ❌ | ✅4️⃣ |
 
 
 **Note:** This list is by no means comprehensive and is provided on a best efforts basis. No guarantees are made to its accuracy or completeness. If you see an error or inaccuracy, please report it and contribute a fix if you can!
 
-## 👋 More Feature Comparisons
+## 👋 Original format creator
 
 Check out the original project that inspired this format:
 
