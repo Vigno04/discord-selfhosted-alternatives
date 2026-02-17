@@ -51,31 +51,31 @@ class TestScoreToEmoji(unittest.TestCase):
         self.assertEqual(score_to_emoji("Wip-3"), "🚧3️⃣")
 
     def test_plain_numbers_string(self):
-        """Test plain number strings return green tick with emoji number."""
-        self.assertEqual(score_to_emoji("0"), "✅0️⃣")
-        self.assertEqual(score_to_emoji("1"), "✅1️⃣")
-        self.assertEqual(score_to_emoji("2"), "✅2️⃣")
-        self.assertEqual(score_to_emoji("3"), "✅3️⃣")
-        self.assertEqual(score_to_emoji("4"), "✅4️⃣")
-        self.assertEqual(score_to_emoji("5"), "✅5️⃣")
-        self.assertEqual(score_to_emoji("6"), "✅6️⃣")
-        self.assertEqual(score_to_emoji("7"), "✅7️⃣")
-        self.assertEqual(score_to_emoji("8"), "✅8️⃣")
-        self.assertEqual(score_to_emoji("9"), "✅9️⃣")
-        self.assertEqual(score_to_emoji("10"), "✅🔟")
+        """Test plain number strings return emoji number."""
+        self.assertEqual(score_to_emoji("0"), "0️⃣")
+        self.assertEqual(score_to_emoji("1"), "1️⃣")
+        self.assertEqual(score_to_emoji("2"), "2️⃣")
+        self.assertEqual(score_to_emoji("3"), "3️⃣")
+        self.assertEqual(score_to_emoji("4"), "4️⃣")
+        self.assertEqual(score_to_emoji("5"), "5️⃣")
+        self.assertEqual(score_to_emoji("6"), "6️⃣")
+        self.assertEqual(score_to_emoji("7"), "7️⃣")
+        self.assertEqual(score_to_emoji("8"), "8️⃣")
+        self.assertEqual(score_to_emoji("9"), "9️⃣")
+        self.assertEqual(score_to_emoji("10"), "🔟")
 
     def test_plain_numbers_int(self):
-        """Test plain integer numbers return green tick with emoji number."""
-        self.assertEqual(score_to_emoji(0), "✅0️⃣")
-        self.assertEqual(score_to_emoji(1), "✅1️⃣")
-        self.assertEqual(score_to_emoji(5), "✅5️⃣")
-        self.assertEqual(score_to_emoji(8), "✅8️⃣")
-        self.assertEqual(score_to_emoji(10), "✅🔟")
+        """Test plain integer numbers return emoji number."""
+        self.assertEqual(score_to_emoji(0), "0️⃣")
+        self.assertEqual(score_to_emoji(1), "1️⃣")
+        self.assertEqual(score_to_emoji(5), "5️⃣")
+        self.assertEqual(score_to_emoji(8), "8️⃣")
+        self.assertEqual(score_to_emoji(10), "🔟")
 
     def test_whitespace_handling(self):
         """Test that whitespace is properly stripped."""
         self.assertEqual(score_to_emoji(" x "), "❌")
-        self.assertEqual(score_to_emoji(" 5 "), "✅5️⃣")
+        self.assertEqual(score_to_emoji(" 5 "), "5️⃣")
         self.assertEqual(score_to_emoji(" wip-3 "), "🚧3️⃣")
 
     def test_unmatched_patterns(self):
@@ -88,8 +88,8 @@ class TestScoreToEmoji(unittest.TestCase):
     def test_edge_cases(self):
         """Test edge cases and boundary conditions."""
         # Numbers outside 0-10 range
-        self.assertEqual(score_to_emoji("11"), "✅11")
-        self.assertEqual(score_to_emoji("99"), "✅99")
+        self.assertEqual(score_to_emoji("11"), "11")
+        self.assertEqual(score_to_emoji("99"), "99")
         self.assertEqual(score_to_emoji("-1"), "-1")  # Negative, not a digit
 
         # WIP with invalid numbers
@@ -98,8 +98,8 @@ class TestScoreToEmoji(unittest.TestCase):
 
     def test_special_ten(self):
         """Test that 10 gets the special keycap 10 emoji."""
-        self.assertEqual(score_to_emoji("10"), "✅🔟")
-        self.assertEqual(score_to_emoji(10), "✅🔟")
+        self.assertEqual(score_to_emoji("10"), "🔟")
+        self.assertEqual(score_to_emoji(10), "🔟")
         self.assertEqual(score_to_emoji("wip-10"), "🚧🔟")
 
 
@@ -329,7 +329,7 @@ class TestGenerateDefaultRow(unittest.TestCase):
         result = generate_default_row(feature, projects)
 
         self.assertIn("| [Web App](features.md#web-app)", result)
-        self.assertIn("✅8️⃣", result)
+        self.assertIn("8️⃣", result)
         self.assertIn("❌", result)
         self.assertIn("🚧3️⃣", result)
 
@@ -345,7 +345,7 @@ class TestGenerateDefaultRow(unittest.TestCase):
 
         # Should show ❌ for missing feature
         self.assertIn("❌", result)
-        self.assertIn("✅5️⃣", result)
+        self.assertIn("5️⃣", result)
 
     def test_default_row_with_urls(self):
         """Test default row with URL links."""
@@ -365,7 +365,7 @@ class TestGenerateDefaultRow(unittest.TestCase):
 
         result = generate_default_row(feature, projects)
 
-        self.assertIn("[✅8️⃣](https://github.com/user/app/releases)", result)
+        self.assertIn("[8️⃣](https://github.com/user/app/releases)", result)
         self.assertIn("[❌](https://github.com/user/app/issues/123)", result)
 
     def test_default_row_no_link(self):
@@ -385,7 +385,7 @@ class TestGenerateDefaultRow(unittest.TestCase):
 
         result = generate_default_row(feature, projects)
 
-        self.assertIn("✅9️⃣", result)
+        self.assertIn("9️⃣", result)
 
 
 class TestGenerateComparisonTable(unittest.TestCase):
@@ -471,7 +471,7 @@ class TestGenerateComparisonTable(unittest.TestCase):
 
         result = generate_comparison_table(data)
 
-        self.assertIn("✅8️⃣", result)
+        self.assertIn("8️⃣", result)
 
 
 class TestReadmeConsistency(unittest.TestCase):

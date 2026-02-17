@@ -2,6 +2,15 @@
 
 To clarify the definitions/meanings of the features that are included in the comparison, the below definitions are currently used:
 
+## How Votes Are Assigned
+
+Feature ratings use a simplified system:
+- ✅ = Feature exists and works well
+- 🚧 = Feature exists but may be incomplete or needs improvement
+- ❌ = Feature does not yet exist
+
+For features that use numerical ratings (like Freeness), scores are based on personal opinion after sufficient testing of the application. These ratings are subjective and may change as the project evolves.
+
 ## Github Stars
 
 The number of stars on the primary github (or other) source code repository.
@@ -22,17 +31,20 @@ The primary language used in the repository's source code.
 
 The software license listed on the code repository.
 
-## Current Version
-
-The latest released version of the project.
-
 ## Demo
 
 Does the project provide a demo instance?
 
 ## Freeness
 
-Is the project completely and forever 'Free', or does it have a subscription plan or support model?
+How "free" the project is, rated on a scale of 0-10:
+
+- **10**: Everything is completely free with no paywalls, subscriptions, or limitations. The project is truly open-source and can be self-hosted without any costs or restrictions.
+- **8-9**: Mostly free but may have optional paid features or premium support offerings that don't affect core functionality.
+- **6-7**: Some features may be limited or have soft paywalls, but the core functionality remains accessible.
+- **4-5**: Major features are locked behind paywalls, or the license has significant limitations that restrict usage for certain use cases.
+- **2-3**: Heavy reliance on paid features or subscriptions for basic functionality.
+- **0-1**: Not free at all - requires payment for any meaningful use, probably will not be included in the list if the vote is so low.
 
 ## Web App
 
@@ -76,11 +88,24 @@ Does the platform provide encryption for messages and data?
 
 ## Ease of Setup
 
-How easy is it to set up and deploy the platform, including self-hosting requirements?
+How easy is it to set up and deploy the platform, rated on a scale of 0-10:
+
+- **10**: Extremely simple setup - single docker-compose file or one command with just a domain needed to expose it. No complex configuration required.
+- **8-9**: Very easy setup - docker-compose with minimal configuration, or simple installation script. May require basic domain setup and minimal port configuration.
+- **6-7**: Moderate setup complexity - requires multiple steps, port exposure, or multiple domains. Some technical knowledge needed but well-documented.
+- **4-5**: Complex setup - involves multiple services, extensive configuration, custom networking, or significant infrastructure requirements.
+- **2-3**: Very complex setup - requires deep technical expertise, custom development, or integration with multiple external services.
+- **0-1**: Extremely difficult setup - only expert users can successfully deploy, requires extensive system administration knowledge and troubleshooting.
+
+**Note:** Documentation quality significantly influences the score. Poor, incomplete, or missing documentation will lower the rating, even if the technical setup complexity is moderate.
 
 ## Screensharing
 
 Does the platform support screen sharing during video calls?
+
+## Screensharing Audio
+
+Does the platform support audio sharing during screen sharing (system audio capture)?
 
 ## Plugins
 
@@ -88,7 +113,7 @@ Does the platform support plugins or extensions for additional functionality?
 
 ## Stability
 
-How stable and reliable is the platform in terms of uptime and performance?
+How stable and reliable is the platform in terms of uptime and performance? A "wip" rating may also indicate that the application has not yet had an out-of-beta release.
 
 ## Authentication Providers
 

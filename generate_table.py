@@ -51,10 +51,18 @@ def score_to_emoji(score):
         emoji_num = emoji_numbers.get(number, number)
         return f"🚧{emoji_num}"
 
-    # Handle plain numbers - Green tick with number
+    # Handle "wip" - Work in progress without number
+    if score_str == "wip":
+        return "🚧"
+
+    # Handle "ok" - OK status
+    if score_str == "ok":
+        return "✅"
+
+    # Handle plain numbers - Just the number emoji
     if score_str.isdigit():
         emoji_num = emoji_numbers.get(score_str, score_str)
-        return f"✅{emoji_num}"
+        return emoji_num
 
     # Return as-is if no pattern matches
     return score_str

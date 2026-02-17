@@ -3,26 +3,27 @@
     {
       "name": "Sharkord",
       "repo": "Sharkord/sharkord",
-      "branch": "main",
+      "branch": "development",
       "logo_url": "https://avatars.githubusercontent.com/u/115672547",
       "logo_alt": "Sharkord Logo",
-      "demo": "9",
+      "demo": "ok",
       "demo_url": "https://demo.sharkord.com/",
       "freeness": "10",
-      "web_app": "7",
+      "web_app": "ok",
       "android_app": "x",
       "ios_app": "x",
       "desktop_app": "x",
-      "voice_chat": "7",
-      "video_chat": "7",
-      "file_sharing": "8",
-      "channels_rooms": "7",
-      "user_roles_permissions": "7",
-      "encryption": "5",
-      "ease_of_setup": "7",
-      "screensharing": "8",
-      "plugins": "4",
-      "stability": "5",
+      "voice_chat": "ok",
+      "video_chat": "ok",
+      "file_sharing": "ok",
+      "channels_rooms": "ok",
+      "user_roles_permissions": "ok",
+      "encryption": "wip",
+      "ease_of_setup": "9",
+      "screensharing": "ok",
+      "screensharing_audio": "ok",
+      "plugins": "wip",
+      "stability": "wip",
       "authentication_providers": "x",
       "translation": "x"
     },
@@ -32,25 +33,26 @@
       "branch": "master",
       "logo_url": "https://avatars.githubusercontent.com/u/75180178",
       "logo_alt": "Spacebar Logo",
-      "demo": "7",
+      "demo": "ok",
       "demo_url": "https://fermi.chat/app",
       "freeness": "10",
-      "web_app": "6",
+      "web_app": "ok",
       "android_app": "x",
       "ios_app": "x",
       "desktop_app": "x",
-      "voice_chat": "wip-4",
-      "video_chat": "wip-4",
-      "file_sharing": "7",
-      "channels_rooms": "7",
-      "user_roles_permissions": "5",
-      "encryption": "5",
-      "ease_of_setup": "6",
+      "voice_chat": "wip",
+      "video_chat": "wip",
+      "file_sharing": "ok",
+      "channels_rooms": "ok",
+      "user_roles_permissions": "wip",
+      "encryption": "wip",
+      "ease_of_setup": "5",
       "screensharing": "x",
-      "plugins": "6",
-      "stability": "5",
+      "screensharing_audio": "wip",
+      "plugins": "ok",
+      "stability": "wip",
       "authentication_providers": "x",
-      "translation": "4"
+      "translation": "wip"
     },
     {
       "name": "Sunburn",
@@ -60,45 +62,47 @@
       "logo_alt": "Sunburn logo",
       "demo": "x",
       "freeness": "10",
-      "web_app": "6",
+      "web_app": "ok",
       "android_app": "x",
       "ios_app": "x",
       "desktop_app": "x",
-      "voice_chat": "6",
-      "video_chat": "6",
-      "file_sharing": "6",
-      "channels_rooms": "7",
-      "user_roles_permissions": "6",
-      "encryption": "5",
-      "ease_of_setup": "5",
-      "screensharing": "6",
+      "voice_chat": "ok",
+      "video_chat": "ok",
+      "file_sharing": "ok",
+      "channels_rooms": "ok",
+      "user_roles_permissions": "ok",
+      "encryption": "wip",
+      "ease_of_setup": "3",
+      "screensharing": "ok",
+      "screensharing_audio": "ok",
       "plugins": "x",
-      "stability": "6",
-      "authentication_providers": "5",
+      "stability": "wip",
+      "authentication_providers": "wip",
       "translation": "x"
     },
     {
       "name": "DCTS",
       "repo": "hackthedev/dcts-shipping",
-      "branch": "main",
+      "branch": "dev",
       "logo_url": "https://avatars.githubusercontent.com/u/40896559",
       "logo_alt": "DCTS logo",
-      "demo": "9",
+      "demo": "ok",
       "freeness": "10",
-      "web_app": "6",
+      "web_app": "ok",
       "android_app": "x",
       "ios_app": "x",
-      "desktop_app": "7",
-      "voice_chat": "6",
+      "desktop_app": "ok",
+      "voice_chat": "ok",
       "video_chat": "x",
-      "file_sharing": "6",
-      "channels_rooms": "7",
-      "user_roles_permissions": "7",
-      "encryption": "6",
+      "file_sharing": "ok",
+      "channels_rooms": "ok",
+      "user_roles_permissions": "ok",
+      "encryption": "ok",
       "ease_of_setup": "8",
-      "screensharing": "7",
-      "plugins": "7",
-      "stability": "6",
+      "screensharing": "ok",
+      "screensharing_audio": "ok",
+      "plugins": "ok",
+      "stability": "wip",
       "authentication_providers": "x",
       "translation": "x"
     }
@@ -143,12 +147,6 @@
       "processor": "generate_license_row"
     },
     {
-      "name": "Current Version",
-      "link": "features.md#current-version",
-      "processor": "generate_badge_row",
-      "badge_template": "![?](https://img.shields.io/github/v/release/{repo}?label=%20)"
-    },
-    {
       "name": "Demo",
       "link": "features.md#demo"
     },
@@ -157,8 +155,16 @@
       "link": "features.md#freeness"
     },
     {
+      "name": "Ease of Setup",
+      "link": "features.md#ease-of-setup"
+    },
+    {
       "name": "Web App",
       "link": "features.md#web-app"
+    },
+    {
+      "name": "Desktop App",
+      "link": "features.md#desktop-app"
     },
     {
       "name": "Android App",
@@ -169,16 +175,20 @@
       "link": "features.md#ios-app"
     },
     {
-      "name": "Desktop App",
-      "link": "features.md#desktop-app"
-    },
-    {
       "name": "Voice Chat",
       "link": "features.md#voice-chat"
     },
     {
       "name": "Video Chat",
       "link": "features.md#video-chat"
+    },
+    {
+      "name": "Screensharing",
+      "link": "features.md#screensharing"
+    },
+    {
+      "name": "Screensharing Audio",
+      "link": "features.md#screensharing-audio"
     },
     {
       "name": "File Sharing",
@@ -197,28 +207,20 @@
       "link": "features.md#encryption"
     },
     {
-      "name": "Ease of Setup",
-      "link": "features.md#ease-of-setup"
-    },
-    {
-      "name": "Screensharing",
-      "link": "features.md#screensharing"
+      "name": "Authentication Providers",
+      "link": "features.md#authentication-providers"
     },
     {
       "name": "Plugins",
       "link": "features.md#plugins"
     },
     {
-      "name": "Stability",
-      "link": "features.md#stability"
-    },
-    {
-      "name": "Authentication Providers",
-      "link": "features.md#authentication-providers"
-    },
-    {
       "name": "Translation",
       "link": "features.md#translation"
+    },
+    {
+      "name": "Stability",
+      "link": "features.md#stability"
     }
   ]
 }

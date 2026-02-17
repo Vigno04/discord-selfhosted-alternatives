@@ -4,13 +4,14 @@ There are many great free and open-source alternatives to closed-source and/or p
 
 ⚠️ Disclaimer: This repository displays both objective and subjective measures of feature quality. The owner of this repository reserves the right to make changes to any pull request.
 
+**Vote Information:** All feature ratings are based on personal opinion and are included only after applications with sufficient testing. In the future, ratings will be determined by community median values. See [features.md](features.md) for detailed information on how votes are assigned for each category.
+
 ## ⚖️ Comparison
 
 ```text
-✅ = Feature exists in at least a limited fashion
-🚧 = Feature may exist but may not be practical or officially released
+✅ = Feature exists and works well
+🚧 = Feature exists but may be incomplete or needs improvement
 ❌ = Feature does not yet exist
-#️⃣ = Subjective measure of feature quality (on scale of 0-10)
 Tip: Hover over emoji for additional information (🔗 link to related issue, 🔑 demo credentials, etc)
 ```
 
