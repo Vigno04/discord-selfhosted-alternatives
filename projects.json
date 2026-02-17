@@ -132,6 +132,33 @@
       "authentication_providers": "x",
       "translation": "x",
       "license_custom": "MIT-NC"
+    },
+    {
+      "name": "Element",
+      "repo": "element-hq/ess-helm",
+      "branch": "main",
+      "logo_url": "https://avatars.githubusercontent.com/u/13446337",
+      "logo_alt": "Element Logo",
+      "demo": "ok",
+      "demo_url": "https://app.element.io",
+      "freeness": "7",
+      "web_app": "ok",
+      "android_app": "ok",
+      "ios_app": "ok",
+      "desktop_app": "ok",
+      "voice_chat": "ok",
+      "video_chat": "ok",
+      "file_sharing": "ok",
+      "channels_rooms": "ok",
+      "user_roles_permissions": "ok",
+      "encryption": "10",
+      "ease_of_setup": "4",
+      "screensharing": "ok",
+      "screensharing_audio": "ok",
+      "plugins": "ok",
+      "stability": "ok",
+      "authentication_providers": "ok",
+      "translation": "ok"
     }
   ],
   "features": [
