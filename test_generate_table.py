@@ -313,6 +313,14 @@ class TestGenerateLicenseRow(unittest.TestCase):
         self.assertIn("github/license/user/app1", result)
         self.assertIn("message=MIT", result)
 
+    def test_license_with_url(self):
+        """Test license row with custom license URL."""
+        projects = [{"name": "Test", "repo": "user/test", "license_url": "https://example.com/license"}]
+
+        result = generate_license_row(projects)
+
+        self.assertIn("[![?](https://img.shields.io/github/license/user/test?label=%20)](https://example.com/license)", result)
+
 
 class TestGenerateDefaultRow(unittest.TestCase):
     """Test cases for the generate_default_row function."""

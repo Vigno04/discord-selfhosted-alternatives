@@ -154,6 +154,12 @@ def generate_license_row(projects):
         else:
             repo = project["repo"]
             badge = f"![?](https://img.shields.io/github/license/{repo}?label=%20)"
+        
+        # Check for custom license URL
+        if "license_url" in project:
+            url = project["license_url"]
+            badge = f"[{badge}]({url})"
+        
         row += f"| {badge} "
 
     row += "|\n"

@@ -29,7 +29,7 @@ The primary language used in the repository's source code.
 
 ## License
 
-The software license listed on the code repository.
+The software license listed on the code repository. If the project has a custom license or the GitHub badge doesn't work properly, you can optionally specify a `license_url` field in the project entry to make the license badge link to a custom URL (e.g., the license file on GitHub).
 
 ## Demo
 
@@ -84,7 +84,16 @@ Can user roles and permissions be defined and managed?
 
 ## Encryption
 
-Does the platform provide encryption for messages and data?
+Does the platform provide encryption for messages and data, rated on a scale of 0-10:
+
+- **10**: End-to-end encryption (E2EE) for all communications (messages, voice, video, files) with perfect forward secrecy. Client-side encryption keys, zero-knowledge architecture. No server access to decrypted content.
+- **8-9**: Strong E2EE for most communications with modern protocols (Signal Protocol, Double Ratchet, or similar). May lack E2EE for some features like group calls or have minor key management limitations.
+- **6-7**: E2EE available but optional or only for specific communication types (e.g., DMs only). Transport-layer encryption (TLS) for all connections. Server has some access to metadata or keys.
+- **4-5**: Transport-layer encryption only (TLS/SSL). Messages encrypted in transit but stored unencrypted or with server-side keys. Server can access message content.
+- **2-3**: Basic or incomplete encryption implementation. Significant security gaps, outdated protocols, or encryption only for some connections.
+- **0-1**: No encryption or completely insecure implementation. Not recommended for any sensitive communications.
+
+**Note:** Audited encryption implementations, proper key management, and open-source cryptographic libraries significantly influence the score. Custom or unvetted encryption will lower the rating.
 
 ## Ease of Setup
 

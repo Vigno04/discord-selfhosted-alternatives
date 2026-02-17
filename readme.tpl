@@ -4,7 +4,7 @@ There are many great free and open-source alternatives to closed-source and/or p
 
 ⚠️ Disclaimer: This repository displays both objective and subjective measures of feature quality. The owner of this repository reserves the right to make changes to any pull request.
 
-**Vote Information:** All feature ratings are based on personal opinion and are included only after applications with sufficient testing. In the future, ratings will be determined by community median values. See [features.md](features.md) for detailed information on how votes are assigned for each category.
+**Vote Information:** All feature ratings for now are done manually by the repo owner, if you think there are some error open an issue with the reasoning. In the future, ratings will be determined by community median values. See [features.md](features.md) for detailed information on how votes are assigned for each category.
 
 ## ⚖️ Comparison
 
