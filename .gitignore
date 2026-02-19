@@ -151,3 +151,6 @@ cython_debug/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Temp folder for cloned repositories
+temp_repos/

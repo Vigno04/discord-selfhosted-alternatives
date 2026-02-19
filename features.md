@@ -66,6 +66,10 @@ Is a desktop app provided?
 
 Does the platform support voice communication between users?
 
+## Noise Cancelling
+
+Does the platform support noise cancellation or noise suppression during voice communication (e.g. via RNNoise, Speex, or browser-native suppression)?
+
 ## Video Chat
 
 Does the platform support video calls or conferencing?
