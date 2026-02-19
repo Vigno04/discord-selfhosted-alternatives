@@ -25,14 +25,14 @@ Tip: Hover over emoji for additional information (🔗 link to related issue, �
 | [License](features.md#license) | ![?](https://img.shields.io/github/license/Sharkord/sharkord?label=%20) | ![?](https://img.shields.io/github/license/spacebarchat/server?label=%20) | ![?](https://img.shields.io/github/license/sunburnco/sunburn?label=%20) | ![?](https://img.shields.io/github/license/hackthedev/dcts-shipping?label=%20) | ![?](https://img.shields.io/static/v1?label=%20&message=MIT-NC&color=orange) | ![?](https://img.shields.io/static/v1?label=%20&message=GNU-AGPLv3&color=orange) | ![?](https://img.shields.io/github/license/commetchat/commet?label=%20) |
 | [Demo](features.md#demo) | [✅](https://demo.sharkord.com/) | [✅](https://fermi.chat/app) | ❌ | ✅ | ❌ | [✅](https://stoat.chat/login) | ✅ |
 | [Freeness](features.md#freeness) | 🔟 | 🔟 | 🔟 | 🔟 | 🔟 | 🔟 | 🔟 |
-| [Ease of Setup](features.md#ease-of-setup) | 9️⃣ | 5️⃣ | 3️⃣ | 8️⃣ | 9️⃣ | 7️⃣ | 4️⃣ |
+| [Ease of Setup](features.md#ease-of-setup) | 9️⃣ | 5️⃣ | 3️⃣ | 8️⃣ | 9️⃣ | 7️⃣ | 6️⃣ |
 | [Web App](features.md#web-app) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Desktop App](features.md#desktop-app) | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ |
 | [Android App](features.md#android-app) | ❌ | ❌ | ❌ | ❌ | ❌ | 🚧 | ✅ |
 | [iOS App](features.md#ios-app) | ❌ | ❌ | ❌ | ❌ | ❌ | 🚧 | 🚧 |
 | [Voice Chat](features.md#voice-chat) | ✅ | 🚧 | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Noise Cancelling](features.md#noise-cancelling) | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
-| [Video Chat](features.md#video-chat) | ✅ | 🚧 | ✅ | ❌ | ❌ | ✅ | ✅ |
+| [Video Chat](features.md#video-chat) | ✅ | 🚧 | ✅ | ❌ | ❌ | 🚧 | ✅ |
 | [Screensharing](features.md#screensharing) | ✅ | ❌ | ✅ | ✅ | ✅ | 🚧 | ✅ |
 | [Screensharing Audio](features.md#screensharing-audio) | ✅ | ❌ | ✅ | ✅ | ❌ | 🚧 | ❌ |
 | [File Sharing](features.md#file-sharing) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -43,6 +43,7 @@ Tip: Hover over emoji for additional information (🔗 link to related issue, �
 | [Plugins](features.md#plugins) | 🚧 | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
 | [Translation](features.md#translation) | ❌ | 🚧 | ❌ | ❌ | ❌ | ✅ | ✅ |
 | [Stability](features.md#stability) | 🚧 | 🚧 | 🚧 | 🚧 | ✅ | ✅ | 🚧 |
+| [UI Vote](ui_comparison/ui_comparison.md) | [7️⃣](ui_comparison/ui_comparison.md#sharkord) | [8️⃣](ui_comparison/ui_comparison.md#spacebar) | [6️⃣](ui_comparison/ui_comparison.md#sunburn) | [6️⃣](ui_comparison/ui_comparison.md#dcts) | [6️⃣](ui_comparison/ui_comparison.md#haven) | [8️⃣](ui_comparison/ui_comparison.md#stoat) | [8️⃣](ui_comparison/ui_comparison.md#commet-matrix) |
 
 
 **Note:** This list is by no means comprehensive and is provided on a best efforts basis. No guarantees are made to its accuracy or completeness. If you see an error or inaccuracy, please report it and contribute a fix if you can!

@@ -135,3 +135,7 @@ Are alternative authentication providers supported? (OAuth, LDAP, etc.)
 ## Translation
 
 Does the platform support languages other than english, the number of translated language influence the score
+
+## UI Vote
+
+This is a more personal vote since it is difficult to be objective. It is taken into consideration the similarity with Discord UI, the simplicity, and aesthetic. The UI Vote links to a detailed comparison page with screenshots where you can see the actual interface of each project.

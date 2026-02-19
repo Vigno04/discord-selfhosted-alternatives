@@ -194,8 +194,14 @@ def generate_default_row(feature, projects):
         else:
             cell = value
 
+        # Special handling for ui_vote
+        if feature_key == "ui_vote":
+            anchor = project["name"].lower().replace(" ", "-").replace("/", "-")
+            url = f"ui_comparison/ui_comparison.md#{anchor}"
+            cell = f"[{cell}]({url})"
+
         # Check if there's a URL field for this feature (even for X/❌ to link to reason/issue)
-        if feature_url_key in project:
+        if feature_url_key in project and feature_key != "ui_vote":
             url = project[feature_url_key]
             cell = f"[{cell}]({url})"
 
@@ -249,6 +255,60 @@ def generate_comparison_table(data):
     return table
 
 
+def generate_ui_comparison_md(projects, output_file="ui_comparison/ui_comparison.md"):
+    """Generate the UI comparison markdown file."""
+    md = "# UI Comparison\n\n"
+    md += "The preview / screenshots were taken directly from the linked repositories.\n"
+    md += "If an image is no longer available or out of date, please create an [issue](https://github.com/discord-selfhosted-alternatives/discord-selfhosted-alternatives/issues) or a [PR](https://github.com/discord-selfhosted-alternatives/discord-selfhosted-alternatives/edit/main/ui_comparison/ui_comparison.md).\n\n"
+    
+    # Add CSS for consistent cell sizing
+    md += "<style>\n"
+    md += ".ui-table { table-layout: fixed; width: 100%; }\n"
+    md += ".ui-table td { width: 400px; height: 300px; vertical-align: top; text-align: center; }\n"
+    md += ".ui-table img { max-width: 100%; max-height: 100%; object-fit: contain; }\n"
+    md += "</style>\n\n"
+
+    for project in projects:
+        name = project["name"]
+        repo = project["repo"]
+        repo_url = f"https://github.com/{repo}"
+        author = repo.split("/")[0]
+
+        md += f"## [{name}]({repo_url}) by {author}\n\n"
+        md += f"[` 🔵 Get this Project `]({repo_url})\n\n"
+
+        ui_images = project.get("ui_images", [])
+        if ui_images:
+            # Generate table with 2 columns
+            md += "<table class=\"ui-table\">\n"
+            for i in range(0, len(ui_images), 2):
+                md += "  <tr>\n"
+                for j in range(2):
+                    if i + j < len(ui_images):
+                        img = ui_images[i + j]
+                        if isinstance(img, str):
+                            img_url = img
+                            description = ""
+                        elif isinstance(img, dict):
+                            img_url = img.get("url", "")
+                            description = img.get("description", "")
+                        else:
+                            continue
+                        md += f"    <td>\n      <img src=\"{img_url}\" />\n"
+                        if description:
+                            md += f"      <br><em>{description}</em>\n"
+                        md += "    </td>\n"
+                md += "  </tr>\n"
+            md += "</table>\n\n"
+        else:
+            md += "No images taken for now\n\n"
+
+        md += "---\n\n"
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        f.write(md)
+
+
 def validate_projects_json(data):
     """Validate the projects.json structure."""
     projects = data["projects"]
@@ -269,7 +329,7 @@ def validate_projects_json(data):
 
     # Check for undocumented keys
     # Build standard keys (fields that don't need to be in features)
-    standard_keys = {"name", "repo", "branch", "logo_url", "logo_alt", "license_custom"}
+    standard_keys = {"name", "repo", "branch", "logo_url", "logo_alt", "license_custom", "ui_images"}
 
     # Build feature keys from features array
     feature_keys = set()
@@ -325,6 +385,9 @@ def generate_readme(
 
     # Generate table
     table = generate_comparison_table(data)
+
+    # Generate UI comparison
+    generate_ui_comparison_md(data["projects"])
 
     # Replace placeholder in template
     output = template.replace("{{COMPARISON_TABLE}}", table)

@@ -26,7 +26,26 @@
       "plugins": "wip",
       "stability": "wip",
       "authentication_providers": "x",
-      "translation": "x"
+      "translation": "x",
+      "ui_vote": "7",
+      "ui_images": [
+        {
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Sharkord/Sharkord-admin-ui.png?raw=true",
+          "description": "Admin interface"
+        },
+        {
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Sharkord/Sharkord-admin-ui.png?raw=true",
+          "description": "Admin interface"
+        },
+        {
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Sharkord/Sharkord-admin-ui.png?raw=true",
+          "description": "Admin interface"
+        },
+        {
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Sharkord/Sharkord-user-ui.png?raw=true",
+          "description": "User interface"
+        }
+      ]
     },
     {
       "name": "Spacebar",
@@ -54,7 +73,26 @@
       "plugins": "ok",
       "stability": "wip",
       "authentication_providers": "x",
-      "translation": "wip"
+      "translation": "wip",
+      "ui_vote": "8",
+      "ui_images": [
+        {
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Spacebar/Spacebar-login-tab.png?raw=true",
+          "description": "Login tab"
+        },
+        {
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Spacebar/Spacebar-friends-tab.png?raw=true",
+          "description": "Friends tab"
+        },
+        {
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Spacebar/Spacebar-server-home-page.png?raw=true",
+          "description": "Server home"
+        },
+        {
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Spacebar/Spacebar-settings.png?raw=true",
+          "description": "Settings"
+        }
+      ]
     },
     {
       "name": "Sunburn",
@@ -81,7 +119,26 @@
       "plugins": "x",
       "stability": "wip",
       "authentication_providers": "wip",
-      "translation": "x"
+      "translation": "x",
+      "ui_vote": "6",
+      "ui_images": [
+        {
+          "url": "https://github.com/sunburnco/sunburn/blob/master/.images/superuser.png?raw=true",
+          "description": "PocketBase Login"
+        },
+        {
+          "url": "https://github.com/sunburnco/sunburn/blob/master/.images/alicecanchat.png?raw=true",
+          "description": "Chatting interface"
+        },
+        {
+          "url": "https://github.com/sunburnco/sunburn/blob/master/.images/calling.png?raw=true",
+          "description": "Calling interface"
+        },
+        {
+          "url": "https://github.com/sunburnco/sunburn/blob/master/.images/server.png?raw=true",
+          "description": "Server ui"
+        }
+      ]
     },
     {
       "name": "DCTS",
@@ -108,7 +165,26 @@
       "plugins": "ok",
       "stability": "wip",
       "authentication_providers": "x",
-      "translation": "x"
+      "translation": "x",
+      "ui_vote": "6",
+      "ui_images": [
+        {
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/DCTS/DCTS-login.png?raw=true",
+          "description": "Login page"
+        },
+        {
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/DCTS/DCTS-server-home-page.png?raw=true",
+          "description": "Server home"
+        },
+        {
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/DCTS/DCTS-settings.png?raw=true",
+          "description": "Settings page"
+        },
+        {
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/DCTS/DCTS-voice-chat.png?raw=true",
+          "description": "Voice chat"
+        }
+      ]
     },
     {
       "name": "Haven",
@@ -136,6 +212,8 @@
       "stability": "ok",
       "authentication_providers": "x",
       "translation": "x",
+      "ui_vote": "6",
+      "ui_images": [],
       "license_custom": "MIT-NC"
     },
     {
@@ -153,7 +231,7 @@
       "desktop_app": "ok",
       "voice_chat": "ok",
       "noise_cancelling": "x",
-      "video_chat": "ok",
+      "video_chat": "wip",
       "file_sharing": "ok",
       "channels_rooms": "ok",
       "user_roles_permissions": "ok",
@@ -165,6 +243,25 @@
       "stability": "ok",
       "authentication_providers": "x",
       "translation": "ok",
+      "ui_vote": "8",
+      "ui_images": [
+        {
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Stoat/Stoat-login-page.png?raw=true",
+          "description": "Login page"
+        },
+        {
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Stoat/Stoat-server-home-page.png?raw=true",
+          "description": "Server home"
+        },
+        {
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Stoat/Stoat-settings-page.png?raw=true",
+          "description": "Settings page"
+        },
+        {
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Stoat/Stoat-voice-chat.png?raw=true",
+          "description": "Voice chat"
+        }
+      ],
       "license_custom": "GNU-AGPLv3"
     },
     {
@@ -186,13 +283,15 @@
       "channels_rooms": "ok",
       "user_roles_permissions": "ok",
       "encryption": "10",
-      "ease_of_setup": "4",
+      "ease_of_setup": "6",
       "screensharing": "ok",
       "screensharing_audio": "x",
       "plugins": "ok",
       "stability": "wip",
       "authentication_providers": "ok",
-      "translation": "ok"
+      "translation": "ok",
+      "ui_vote": "8",
+      "ui_images": []
     }
   ],
   "features": [
@@ -313,6 +412,10 @@
     {
       "name": "Stability",
       "link": "features.md#stability"
+    },
+    {
+      "name": "UI Vote",
+      "link": "ui_comparison/ui_comparison.md"
     }
   ]
 }
