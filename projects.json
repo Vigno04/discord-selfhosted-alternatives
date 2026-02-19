@@ -30,20 +30,20 @@
       "ui_vote": "7",
       "ui_images": [
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Sharkord/Sharkord-admin-ui.png?raw=true",
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Sharkord/Sharkord-admin-ui.png?raw=true",
           "description": "Admin interface"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Sharkord/Sharkord-admin-ui.png?raw=true",
-          "description": "Admin interface"
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Sharkord/Sharkord-login-ui.png?raw=true",
+          "description": "Login UI"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Sharkord/Sharkord-admin-ui.png?raw=true",
-          "description": "Admin interface"
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Sharkord/Sharkord-server-home-page.png?raw=true",
+          "description": "Server home"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Sharkord/Sharkord-user-ui.png?raw=true",
-          "description": "User interface"
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Sharkord/Sharkord-voice-chat.png?raw=true",
+          "description": "Voice chat"
         }
       ]
     },
@@ -77,19 +77,19 @@
       "ui_vote": "8",
       "ui_images": [
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Spacebar/Spacebar-login-tab.png?raw=true",
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Spacebar/Spacebar-login-tab.png?raw=true",
           "description": "Login tab"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Spacebar/Spacebar-friends-tab.png?raw=true",
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Spacebar/Spacebar-friends-tab.png?raw=true",
           "description": "Friends tab"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Spacebar/Spacebar-server-home-page.png?raw=true",
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Spacebar/Spacebar-server-home-page.png?raw=true",
           "description": "Server home"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Spacebar/Spacebar-settings.png?raw=true",
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Spacebar/Spacebar-settings.png?raw=true",
           "description": "Settings"
         }
       ]
@@ -169,19 +169,19 @@
       "ui_vote": "6",
       "ui_images": [
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/DCTS/DCTS-login.png?raw=true",
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/DCTS/DCTS-login.png?raw=true",
           "description": "Login page"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/DCTS/DCTS-server-home-page.png?raw=true",
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/DCTS/DCTS-server-home-page.png?raw=true",
           "description": "Server home"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/DCTS/DCTS-settings.png?raw=true",
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/DCTS/DCTS-settings.png?raw=true",
           "description": "Settings page"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/DCTS/DCTS-voice-chat.png?raw=true",
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/DCTS/DCTS-voice-chat.png?raw=true",
           "description": "Voice chat"
         }
       ]
@@ -246,19 +246,19 @@
       "ui_vote": "8",
       "ui_images": [
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Stoat/Stoat-login-page.png?raw=true",
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Stoat/Stoat-login-page.png?raw=true",
           "description": "Login page"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Stoat/Stoat-server-home-page.png?raw=true",
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Stoat/Stoat-server-home-page.png?raw=true",
           "description": "Server home"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Stoat/Stoat-settings-page.png?raw=true",
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Stoat/Stoat-settings-page.png?raw=true",
           "description": "Settings page"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Stoat/Stoat-voice-chat.png?raw=true",
+          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Stoat/Stoat-voice-chat.png?raw=true",
           "description": "Voice chat"
         }
       ],

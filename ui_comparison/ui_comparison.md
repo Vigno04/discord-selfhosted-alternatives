@@ -16,22 +16,22 @@ If an image is no longer available or out of date, please create an [issue](http
 <table class="ui-table">
   <tr>
     <td>
-      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Sharkord/Sharkord-admin-ui.png?raw=true" />
+      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Sharkord/Sharkord-admin-ui.png?raw=true" />
       <br><em>Admin interface</em>
     </td>
     <td>
-      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Sharkord/Sharkord-admin-ui.png?raw=true" />
-      <br><em>Admin interface</em>
+      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Sharkord/Sharkord-login-ui.png?raw=true" />
+      <br><em>Login UI</em>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Sharkord/Sharkord-admin-ui.png?raw=true" />
-      <br><em>Admin interface</em>
+      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Sharkord/Sharkord-server-home-page.png?raw=true" />
+      <br><em>Server home</em>
     </td>
     <td>
-      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Sharkord/Sharkord-user-ui.png?raw=true" />
-      <br><em>User interface</em>
+      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Sharkord/Sharkord-voice-chat.png?raw=true" />
+      <br><em>Voice chat</em>
     </td>
   </tr>
 </table>
@@ -45,21 +45,21 @@ If an image is no longer available or out of date, please create an [issue](http
 <table class="ui-table">
   <tr>
     <td>
-      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Spacebar/Spacebar-login-tab.png?raw=true" />
+      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Spacebar/Spacebar-login-tab.png?raw=true" />
       <br><em>Login tab</em>
     </td>
     <td>
-      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Spacebar/Spacebar-friends-tab.png?raw=true" />
+      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Spacebar/Spacebar-friends-tab.png?raw=true" />
       <br><em>Friends tab</em>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Spacebar/Spacebar-server-home-page.png?raw=true" />
+      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Spacebar/Spacebar-server-home-page.png?raw=true" />
       <br><em>Server home</em>
     </td>
     <td>
-      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Spacebar/Spacebar-settings.png?raw=true" />
+      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Spacebar/Spacebar-settings.png?raw=true" />
       <br><em>Settings</em>
     </td>
   </tr>
@@ -103,21 +103,21 @@ If an image is no longer available or out of date, please create an [issue](http
 <table class="ui-table">
   <tr>
     <td>
-      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/DCTS/DCTS-login.png?raw=true" />
+      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/DCTS/DCTS-login.png?raw=true" />
       <br><em>Login page</em>
     </td>
     <td>
-      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/DCTS/DCTS-server-home-page.png?raw=true" />
+      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/DCTS/DCTS-server-home-page.png?raw=true" />
       <br><em>Server home</em>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/DCTS/DCTS-settings.png?raw=true" />
+      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/DCTS/DCTS-settings.png?raw=true" />
       <br><em>Settings page</em>
     </td>
     <td>
-      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/DCTS/DCTS-voice-chat.png?raw=true" />
+      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/DCTS/DCTS-voice-chat.png?raw=true" />
       <br><em>Voice chat</em>
     </td>
   </tr>
@@ -140,21 +140,21 @@ No images taken for now
 <table class="ui-table">
   <tr>
     <td>
-      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Stoat/Stoat-login-page.png?raw=true" />
+      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Stoat/Stoat-login-page.png?raw=true" />
       <br><em>Login page</em>
     </td>
     <td>
-      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Stoat/Stoat-server-home-page.png?raw=true" />
+      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Stoat/Stoat-server-home-page.png?raw=true" />
       <br><em>Server home</em>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Stoat/Stoat-settings-page.png?raw=true" />
+      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Stoat/Stoat-settings-page.png?raw=true" />
       <br><em>Settings page</em>
     </td>
     <td>
-      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/main/ui_comparison/images/Stoat/Stoat-voice-chat.png?raw=true" />
+      <img src="https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Stoat/Stoat-voice-chat.png?raw=true" />
       <br><em>Voice chat</em>
     </td>
   </tr>
