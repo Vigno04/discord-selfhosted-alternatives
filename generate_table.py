@@ -259,7 +259,7 @@ def generate_ui_comparison_md(projects, output_file="ui_comparison/ui_comparison
     """Generate the UI comparison markdown file."""
     md = "# UI Comparison\n\n"
     md += "The preview / screenshots were taken directly from the linked repositories.\n"
-    md += "If an image is no longer available or out of date, please create an [issue](https://github.com/discord-selfhosted-alternatives/discord-selfhosted-alternatives/issues) or a [PR](https://github.com/discord-selfhosted-alternatives/discord-selfhosted-alternatives/edit/main/ui_comparison/ui_comparison.md).\n\n"
+    md += "If an image is no longer available or out of date, please create an [issue](https://github.com/Vigno04/discord-selfhosted-alternatives/issues) or a [PR](https://github.com/Vigno04/discord-selfhosted-alternatives/pulls).\n\n"
     
     # Add CSS for consistent cell sizing
     md += "<style>\n"

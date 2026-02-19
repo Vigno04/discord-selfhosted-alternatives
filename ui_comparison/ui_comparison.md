@@ -1,7 +1,7 @@
 # UI Comparison
 
 The preview / screenshots were taken directly from the linked repositories.
-If an image is no longer available or out of date, please create an [issue](https://github.com/discord-selfhosted-alternatives/discord-selfhosted-alternatives/issues) or a [PR](https://github.com/discord-selfhosted-alternatives/discord-selfhosted-alternatives/edit/main/ui_comparison/ui_comparison.md).
+If an image is no longer available or out of date, please create an [issue](https://github.com/Vigno04/discord-selfhosted-alternatives/issues) or a [PR](https://github.com/Vigno04/discord-selfhosted-alternatives/pulls).
 
 <style>
 .ui-table { table-layout: fixed; width: 100%; }
