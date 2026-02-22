@@ -13,6 +13,7 @@ There are many great free and open-source alternatives to closed-source and/or p
 🚧 = Feature exists but may be incomplete or needs improvement
 ❌ = Feature does not yet exist
 Tip: Hover over emoji for additional information (🔗 link to related issue, 🔑 demo credentials, etc)
+⚠️  = Hover over warning icon for an important note about this specific value
 ```
 
 {{COMPARISON_TABLE}}

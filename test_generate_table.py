@@ -18,6 +18,7 @@ from generate_table import (
     generate_license_row,
     generate_default_row,
     generate_comparison_table,
+    generate_ui_comparison_md,
     validate_projects_json,
     generate_readme,
 )
@@ -829,6 +830,49 @@ class TestGenerateReadme(unittest.TestCase):
             self.assertIn("| [Test](https://github.com/user/test)", content)
 
         self._test_generate_readme_with_data(template_data, json_data, assertions)
+
+
+class TestGenerateUiComparisonMd(unittest.TestCase):
+    """Test cases for generate_ui_comparison_md function."""
+
+    def test_generates_github_friendly_markdown_tables(self):
+        """UI comparison should avoid CSS/HTML table class and use markdown table rows."""
+        projects = [
+            {
+                "name": "Sharkord",
+                "repo": "Sharkord/sharkord",
+                "ui_images": [
+                    {
+                        "url": "images/Sharkord/Sharkord-admin-ui.png",
+                        "description": "Admin interface",
+                    },
+                    {
+                        "url": "https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/superuser.png",
+                        "description": "PocketBase Login",
+                    },
+                ],
+            }
+        ]
+
+        output_file = tempfile.mktemp(suffix=".md")
+        try:
+            generate_ui_comparison_md(projects, output_file=output_file)
+
+            with open(output_file, "r", encoding="utf-8") as f:
+                content = f.read()
+
+            self.assertIn("| Admin interface | PocketBase Login |", content)
+            self.assertIn('width="480"', content)
+            self.assertNotIn("<style>", content)
+            self.assertNotIn('class="ui-table"', content)
+            self.assertIn("images/Sharkord/Sharkord-admin-ui.png", content)
+            self.assertIn(
+                "https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/superuser.png",
+                content,
+            )
+        finally:
+            if os.path.exists(output_file):
+                os.unlink(output_file)
 
 
 if __name__ == "__main__":

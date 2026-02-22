@@ -7,6 +7,11 @@ This script reads projects.json and readme.tpl to create the comparison table.
 import json
 
 
+def _escape_table_cell(text):
+    """Escape characters that break markdown table cells."""
+    return str(text).replace("|", "\\|").strip()
+
+
 def score_to_emoji(score):
     """
     Map score strings to their visual representation with emojis.
@@ -205,6 +210,12 @@ def generate_default_row(feature, projects):
             url = project[feature_url_key]
             cell = f"[{cell}]({url})"
 
+        # Check for notes/tooltip — renders an ⚠️ icon with a hover title
+        notes = project.get("notes", {})
+        feature_note = notes.get(feature_key)
+        if feature_note:
+            cell += f' <abbr title="{feature_note}">⚠️</abbr>'
+
         row += f"| {cell} "
 
     row += "|\n"
@@ -260,13 +271,6 @@ def generate_ui_comparison_md(projects, output_file="ui_comparison/ui_comparison
     md = "# UI Comparison\n\n"
     md += "The preview / screenshots were taken directly from the linked repositories.\n"
     md += "If an image is no longer available or out of date, please create an [issue](https://github.com/Vigno04/discord-selfhosted-alternatives/issues) or a [PR](https://github.com/Vigno04/discord-selfhosted-alternatives/pulls).\n\n"
-    
-    # Add CSS for consistent cell sizing
-    md += "<style>\n"
-    md += ".ui-table { table-layout: fixed; width: 100%; }\n"
-    md += ".ui-table td { width: 400px; height: 300px; vertical-align: top; text-align: center; }\n"
-    md += ".ui-table img { max-width: 100%; max-height: 100%; object-fit: contain; }\n"
-    md += "</style>\n\n"
 
     for project in projects:
         name = project["name"]
@@ -279,27 +283,55 @@ def generate_ui_comparison_md(projects, output_file="ui_comparison/ui_comparison
 
         ui_images = project.get("ui_images", [])
         if ui_images:
-            # Generate table with 2 columns
-            md += "<table class=\"ui-table\">\n"
             for i in range(0, len(ui_images), 2):
-                md += "  <tr>\n"
-                for j in range(2):
-                    if i + j < len(ui_images):
-                        img = ui_images[i + j]
-                        if isinstance(img, str):
-                            img_url = img
-                            description = ""
-                        elif isinstance(img, dict):
-                            img_url = img.get("url", "")
-                            description = img.get("description", "")
-                        else:
-                            continue
-                        md += f"    <td>\n      <img src=\"{img_url}\" />\n"
-                        if description:
-                            md += f"      <br><em>{description}</em>\n"
-                        md += "    </td>\n"
-                md += "  </tr>\n"
-            md += "</table>\n\n"
+                pair = ui_images[i : i + 2]
+                normalized_items = []
+
+                for img in pair:
+                    if isinstance(img, str):
+                        image_url = img
+                        description = "Preview"
+                    elif isinstance(img, dict):
+                        image_url = img.get("url", "")
+                        description = img.get("description", "Preview")
+                    else:
+                        continue
+
+                    description = _escape_table_cell(description) or "Preview"
+                    alt_text = _escape_table_cell(f"{name} {description}").strip()
+                    normalized_items.append(
+                        {
+                            "description": description,
+                            "image_url": image_url,
+                            "alt_text": alt_text,
+                        }
+                    )
+
+                if not normalized_items:
+                    continue
+
+                while len(normalized_items) < 2:
+                    normalized_items.append(
+                        {"description": "", "image_url": "", "alt_text": ""}
+                    )
+
+                left, right = normalized_items
+
+                md += f"| {left['description']} | {right['description']} |\n"
+                md += "| --- | --- |\n"
+
+                left_img = (
+                    f'<img src="{left["image_url"]}" alt="{left["alt_text"]}" width="480" />'
+                    if left["image_url"]
+                    else ""
+                )
+                right_img = (
+                    f'<img src="{right["image_url"]}" alt="{right["alt_text"]}" width="480" />'
+                    if right["image_url"]
+                    else ""
+                )
+
+                md += f"| {left_img} | {right_img} |\n\n"
         else:
             md += "No images taken for now\n\n"
 
@@ -329,7 +361,7 @@ def validate_projects_json(data):
 
     # Check for undocumented keys
     # Build standard keys (fields that don't need to be in features)
-    standard_keys = {"name", "repo", "branch", "logo_url", "logo_alt", "license_custom", "ui_images"}
+    standard_keys = {"name", "repo", "branch", "logo_url", "logo_alt", "license_custom", "ui_images", "notes"}
 
     # Build feature keys from features array
     feature_keys = set()

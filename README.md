@@ -13,6 +13,7 @@ There are many great free and open-source alternatives to closed-source and/or p
 🚧 = Feature exists but may be incomplete or needs improvement
 ❌ = Feature does not yet exist
 Tip: Hover over emoji for additional information (🔗 link to related issue, 🔑 demo credentials, etc)
+⚠️  = Hover over warning icon for an important note about this specific value
 ```
 
 | Feature | [Sharkord](https://github.com/Sharkord/sharkord) | [Spacebar](https://github.com/spacebarchat/server) | [Sunburn](https://github.com/sunburnco/sunburn) | [DCTS](https://github.com/hackthedev/dcts-shipping) | [Haven](https://github.com/ancsemi/Haven) | [Stoat](https://github.com/stoatchat/self-hosted) | [Commet/Matrix](https://github.com/commetchat/commet) |
@@ -24,7 +25,7 @@ Tip: Hover over emoji for additional information (🔗 link to related issue, �
 | [Source Language](features.md#source-language) | ![GitHub top language](https://img.shields.io/github/languages/top/sharkord/sharkord) | ![GitHub top language](https://img.shields.io/github/languages/top/spacebarchat/server) | ![GitHub top language](https://img.shields.io/github/languages/top/sunburnco/sunburn) | ![GitHub top language](https://img.shields.io/github/languages/top/hackthedev/dcts-shipping) | ![GitHub top language](https://img.shields.io/github/languages/top/ancsemi/haven) | ![GitHub top language](https://img.shields.io/github/languages/top/stoatchat/self-hosted) | ![GitHub top language](https://img.shields.io/github/languages/top/commetchat/commet) |
 | [License](features.md#license) | ![?](https://img.shields.io/github/license/Sharkord/sharkord?label=%20) | ![?](https://img.shields.io/github/license/spacebarchat/server?label=%20) | ![?](https://img.shields.io/github/license/sunburnco/sunburn?label=%20) | ![?](https://img.shields.io/github/license/hackthedev/dcts-shipping?label=%20) | ![?](https://img.shields.io/static/v1?label=%20&message=MIT-NC&color=orange) | ![?](https://img.shields.io/static/v1?label=%20&message=GNU-AGPLv3&color=orange) | ![?](https://img.shields.io/github/license/commetchat/commet?label=%20) |
 | [Demo](features.md#demo) | [✅](https://demo.sharkord.com/) | [✅](https://fermi.chat/app) | ❌ | ✅ | ❌ | [✅](https://stoat.chat/login) | ✅ |
-| [Freeness](features.md#freeness) | 🔟 | 🔟 | 🔟 | 🔟 | 🔟 | 🔟 | 🔟 |
+| [Freeness](features.md#freeness) | 🔟 | 🔟 | 🔟 | 🔟 | 🔟 | 8️⃣ <abbr title="Stoat's freeness score is lower because while the server and client are open-source and free to host, the protocol is not open. This may affect long-term independence for server owners and communities if project direction changes.">⚠️</abbr> | 🔟 |
 | [Ease of Setup](features.md#ease-of-setup) | 9️⃣ | 5️⃣ | 3️⃣ | 8️⃣ | 9️⃣ | 7️⃣ | 6️⃣ |
 | [Web App](features.md#web-app) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Desktop App](features.md#desktop-app) | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ |

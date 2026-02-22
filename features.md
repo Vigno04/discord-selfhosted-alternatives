@@ -39,12 +39,16 @@ Does the project provide a demo instance?
 
 How "free" the project is, rated on a scale of 0-10:
 
-- **10**: Everything is completely free with no paywalls, subscriptions, or limitations. The project is truly open-source and can be self-hosted without any costs or restrictions.
-- **8-9**: Mostly free but may have optional paid features or premium support offerings that don't affect core functionality.
-- **6-7**: Some features may be limited or have soft paywalls, but the core functionality remains accessible.
-- **4-5**: Major features are locked behind paywalls, or the license has significant limitations that restrict usage for certain use cases.
-- **2-3**: Heavy reliance on paid features or subscriptions for basic functionality.
-- **0-1**: Not free at all - requires payment for any meaningful use, probably will not be included in the list if the vote is so low.
+This score includes not only pricing/licensing, but also long-term project independence for self-hosters:
+- Can the full stack be forked and continued without the original team?
+- Is the protocol/API open enough that communities are not locked into one core team direction?
+
+- **10**: Fully free and fully forkable. No paywalls on core functionality, full server/client stack is open-source, and self-hosting does not depend on proprietary closed components controlled by one team.
+- **8-9**: Mostly free with minor limitations, or open-source full stack with some medium-term ecosystem/protocol lock-in concerns that do not currently block normal self-hosting.
+- **6-7**: Core functionality is accessible, but there are meaningful constraints (feature gating, weak licensing terms, or significant dependence on one team's protocol direction).
+- **4-5**: Major features are limited, the stack is only partially open, or long-term self-hosting/forkability risk is high.
+- **2-3**: Heavy reliance on paid features/subscriptions or mostly non-forkable architecture for meaningful use.
+- **0-1**: Not free in practice for meaningful use.
 
 ## Web App
 

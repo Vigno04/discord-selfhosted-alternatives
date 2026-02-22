@@ -30,19 +30,19 @@
       "ui_vote": "7",
       "ui_images": [
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Sharkord/Sharkord-admin-ui.png?raw=true",
+          "url": "images/Sharkord/Sharkord-admin-ui.png",
           "description": "Admin interface"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Sharkord/Sharkord-login-ui.png?raw=true",
+          "url": "images/Sharkord/Sharkord-login-ui.png",
           "description": "Login UI"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Sharkord/Sharkord-server-home-page.png?raw=true",
+          "url": "images/Sharkord/Sharkord-server-home-page.png",
           "description": "Server home"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Sharkord/Sharkord-voice-chat.png?raw=true",
+          "url": "images/Sharkord/Sharkord-voice-chat.png",
           "description": "Voice chat"
         }
       ]
@@ -77,19 +77,19 @@
       "ui_vote": "8",
       "ui_images": [
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Spacebar/Spacebar-login-tab.png?raw=true",
+          "url": "images/Spacebar/Spacebar-login-tab.png",
           "description": "Login tab"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Spacebar/Spacebar-friends-tab.png?raw=true",
+          "url": "images/Spacebar/Spacebar-friends-tab.png",
           "description": "Friends tab"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Spacebar/Spacebar-server-home-page.png?raw=true",
+          "url": "images/Spacebar/Spacebar-server-home-page.png",
           "description": "Server home"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Spacebar/Spacebar-settings.png?raw=true",
+          "url": "images/Spacebar/Spacebar-settings.png",
           "description": "Settings"
         }
       ]
@@ -123,19 +123,19 @@
       "ui_vote": "6",
       "ui_images": [
         {
-          "url": "https://github.com/sunburnco/sunburn/blob/master/.images/superuser.png?raw=true",
+          "url": "images/Sunburn/Sunburn-pocketbase.png",
           "description": "PocketBase Login"
         },
         {
-          "url": "https://github.com/sunburnco/sunburn/blob/master/.images/alicecanchat.png?raw=true",
+          "url": "https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/alicecanchat.png",
           "description": "Chatting interface"
         },
         {
-          "url": "https://github.com/sunburnco/sunburn/blob/master/.images/calling.png?raw=true",
+          "url": "https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/calling.png",
           "description": "Calling interface"
         },
         {
-          "url": "https://github.com/sunburnco/sunburn/blob/master/.images/server.png?raw=true",
+          "url": "https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/server.png",
           "description": "Server ui"
         }
       ]
@@ -169,19 +169,19 @@
       "ui_vote": "6",
       "ui_images": [
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/DCTS/DCTS-login.png?raw=true",
+          "url": "images/DCTS/DCTS-login.png",
           "description": "Login page"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/DCTS/DCTS-server-home-page.png?raw=true",
+          "url": "images/DCTS/DCTS-server-home-page.png",
           "description": "Server home"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/DCTS/DCTS-settings.png?raw=true",
+          "url": "images/DCTS/DCTS-settings.png",
           "description": "Settings page"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/DCTS/DCTS-voice-chat.png?raw=true",
+          "url": "images/DCTS/DCTS-voice-chat.png",
           "description": "Voice chat"
         }
       ]
@@ -224,7 +224,7 @@
       "logo_alt": "Stoat Logo",
       "demo": "ok",
       "demo_url": "https://stoat.chat/login",
-      "freeness": "10",
+      "freeness": "8",
       "web_app": "ok",
       "android_app": "wip",
       "ios_app": "wip",
@@ -246,23 +246,26 @@
       "ui_vote": "8",
       "ui_images": [
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Stoat/Stoat-login-page.png?raw=true",
+          "url": "images/Stoat/Stoat-login-page.png",
           "description": "Login page"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Stoat/Stoat-server-home-page.png?raw=true",
+          "url": "images/Stoat/Stoat-server-home-page.png",
           "description": "Server home"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Stoat/Stoat-settings-page.png?raw=true",
+          "url": "images/Stoat/Stoat-settings-page.png",
           "description": "Settings page"
         },
         {
-          "url": "https://github.com/Vigno04/discord-selfhosted-alternatives/blob/main/ui_comparison/images/Stoat/Stoat-voice-chat.png?raw=true",
+          "url": "images/Stoat/Stoat-voice-chat.png",
           "description": "Voice chat"
         }
       ],
-      "license_custom": "GNU-AGPLv3"
+      "license_custom": "GNU-AGPLv3",
+      "notes": {
+        "freeness": "Stoat's freeness score is lower because while the server and client are open-source and free to host, the protocol is not open. This may affect long-term independence for server owners and communities if project direction changes."
+      }
     },
     {
       "name": "Commet/Matrix",
