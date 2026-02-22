@@ -28,14 +28,14 @@ Tip: Hover over emoji for additional information (🔗 link to related issue, �
 | [Freeness](features.md#freeness) | 🔟 | 🔟 | 🔟 | 🔟 | 🔟 | 8️⃣ [⚠️](features.md#freeness "Stoat's freeness score is lower because while the server and client are open-source and free to host, the protocol is not open. This may affect long-term independence for server owners and communities if project direction changes.") | 🔟 |
 | [Ease of Setup](features.md#ease-of-setup) | 9️⃣ | 5️⃣ | 3️⃣ | 8️⃣ | 9️⃣ | 7️⃣ | 6️⃣ |
 | [Web App](features.md#web-app) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Desktop App](features.md#desktop-app) | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ |
-| [Android App](features.md#android-app) | ❌ | ❌ | ❌ | ❌ | ❌ | 🚧 | ✅ |
+| [Desktop App](features.md#desktop-app) | ❌ | ❌ | ❌ | ✅ | 🚧 | ✅ | ✅ |
+| [Android App](features.md#android-app) | ❌ | ❌ | ❌ | ❌ | 🚧 | 🚧 | ✅ |
 | [iOS App](features.md#ios-app) | ❌ | ❌ | ❌ | ❌ | ❌ | 🚧 | 🚧 |
 | [Voice Chat](features.md#voice-chat) | ✅ | 🚧 | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Noise Cancelling](features.md#noise-cancelling) | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Noise Cancelling](features.md#noise-cancelling) | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ |
 | [Video Chat](features.md#video-chat) | ✅ | 🚧 | ✅ | ❌ | ❌ | 🚧 | ✅ |
 | [Screensharing](features.md#screensharing) | ✅ | ❌ | ✅ | ✅ | ✅ | 🚧 | ✅ |
-| [Screensharing Audio](features.md#screensharing-audio) | ✅ | ❌ | ✅ | ✅ | ❌ | 🚧 | ❌ |
+| [Screensharing Audio](features.md#screensharing-audio) | ✅ | ❌ | ✅ | ✅ | ✅ | 🚧 | ❌ |
 | [Per App Audio Sharing](features.md#per-app-audio-sharing) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [File Sharing](features.md#file-sharing) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Channels/Rooms](features.md#channels-rooms) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
