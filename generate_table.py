@@ -12,6 +12,11 @@ def _escape_table_cell(text):
     return str(text).replace("|", "\\|").strip()
 
 
+def _escape_markdown_title(text):
+    """Escape text for markdown link title attributes."""
+    return str(text).replace('"', r'\"').strip()
+
+
 def score_to_emoji(score):
     """
     Map score strings to their visual representation with emojis.
@@ -214,7 +219,9 @@ def generate_default_row(feature, projects):
         notes = project.get("notes", {})
         feature_note = notes.get(feature_key)
         if feature_note:
-            cell += f' <abbr title="{feature_note}">⚠️</abbr>'
+            tooltip = _escape_markdown_title(feature_note)
+            tooltip_target = feature_link if feature_link else "#"
+            cell += f' [⚠️]({tooltip_target} "{tooltip}")'
 
         row += f"| {cell} "
 

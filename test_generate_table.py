@@ -396,6 +396,24 @@ class TestGenerateDefaultRow(unittest.TestCase):
 
         self.assertIn("9️⃣", result)
 
+    def test_default_row_notes_render_markdown_tooltip(self):
+        """Notes should render as markdown link title tooltip (GitHub-compatible)."""
+        feature = {"name": "Freeness", "link": "features.md#freeness"}
+        projects = [
+            {
+                "name": "Stoat",
+                "freeness": "8",
+                "notes": {
+                    "freeness": "Stoat's freeness score is lower because protocol is not open."
+                },
+            }
+        ]
+
+        result = generate_default_row(feature, projects)
+
+        self.assertIn('8️⃣ [⚠️](features.md#freeness "Stoat\'s freeness score is lower because protocol is not open.")', result)
+        self.assertNotIn("<abbr", result)
+
 
 class TestGenerateComparisonTable(unittest.TestCase):
     """Test cases for the generate_comparison_table function."""
