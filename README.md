@@ -36,6 +36,7 @@ Tip: Hover over emoji for additional information (🔗 link to related issue, �
 | [Video Chat](features.md#video-chat) | ✅ | 🚧 | ✅ | ❌ | ❌ | 🚧 | ✅ |
 | [Screensharing](features.md#screensharing) | ✅ | ❌ | ✅ | ✅ | ✅ | 🚧 | ✅ |
 | [Screensharing Audio](features.md#screensharing-audio) | ✅ | ❌ | ✅ | ✅ | ❌ | 🚧 | ❌ |
+| [Per App Audio Sharing](features.md#per-app-audio-sharing) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [File Sharing](features.md#file-sharing) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Channels/Rooms](features.md#channels-rooms) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [User Roles/Permissions](features.md#user-roles-permissions) | ✅ | 🚧 | ✅ | ✅ | ✅ | ✅ | ✅ |

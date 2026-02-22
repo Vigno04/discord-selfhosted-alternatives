@@ -23,6 +23,7 @@
       "ease_of_setup": "9",
       "screensharing": "ok",
       "screensharing_audio": "ok",
+      "per_app_audio_sharing": "x",
       "plugins": "wip",
       "stability": "wip",
       "authentication_providers": "x",
@@ -70,6 +71,7 @@
       "ease_of_setup": "5",
       "screensharing": "x",
       "screensharing_audio": "x",
+      "per_app_audio_sharing": "x",
       "plugins": "ok",
       "stability": "wip",
       "authentication_providers": "x",
@@ -116,6 +118,7 @@
       "ease_of_setup": "3",
       "screensharing": "ok",
       "screensharing_audio": "ok",
+      "per_app_audio_sharing": "x",
       "plugins": "x",
       "stability": "wip",
       "authentication_providers": "wip",
@@ -162,6 +165,7 @@
       "ease_of_setup": "8",
       "screensharing": "ok",
       "screensharing_audio": "ok",
+      "per_app_audio_sharing": "x",
       "plugins": "ok",
       "stability": "wip",
       "authentication_providers": "x",
@@ -208,6 +212,7 @@
       "ease_of_setup": "9",
       "screensharing": "ok",
       "screensharing_audio": "x",
+      "per_app_audio_sharing": "x",
       "plugins": "x",
       "stability": "ok",
       "authentication_providers": "x",
@@ -239,6 +244,7 @@
       "ease_of_setup": "7",
       "screensharing": "wip",
       "screensharing_audio": "wip",
+      "per_app_audio_sharing": "x",
       "plugins": "ok",
       "stability": "ok",
       "authentication_providers": "x",
@@ -289,6 +295,7 @@
       "ease_of_setup": "6",
       "screensharing": "ok",
       "screensharing_audio": "x",
+      "per_app_audio_sharing": "x",
       "plugins": "ok",
       "stability": "wip",
       "authentication_providers": "ok",
@@ -383,6 +390,10 @@
     {
       "name": "Screensharing Audio",
       "link": "features.md#screensharing-audio"
+    },
+    {
+      "name": "Per App Audio Sharing",
+      "link": "features.md#per-app-audio-sharing"
     },
     {
       "name": "File Sharing",

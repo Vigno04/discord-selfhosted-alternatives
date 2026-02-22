@@ -124,6 +124,10 @@ Does the platform support screen sharing during video calls?
 
 Does the platform support audio sharing during screen sharing (system audio capture)?
 
+## Per App Audio Sharing
+
+Does the platform support sharing audio from a **specific application only**, rather than the entire system?
+
 ## Plugins
 
 Does the platform support plugins or extensions for additional functionality?
