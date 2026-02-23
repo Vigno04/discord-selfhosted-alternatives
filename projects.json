@@ -218,7 +218,24 @@
       "authentication_providers": "x",
       "translation": "x",
       "ui_vote": "6",
-      "ui_images": [],
+      "ui_images": [
+        {
+          "url": "images/Haven/Haven-admin-ui.png",
+          "description": "Admin interface"
+        },
+        {
+          "url": "images/Haven/Haven-login-tab.png",
+          "description": "Login UI"
+        },
+        {
+          "url": "images/Haven/Haven-server-home-page.png",
+          "description": "Server home"
+        },
+        {
+          "url": "images/Haven/Haven-voice-chat.png",
+          "description": "Voice chat"
+        }
+      ],
       "license_custom": "MIT-NC"
     },
     {
