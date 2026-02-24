@@ -87,6 +87,16 @@ If an image is no longer available or out of date, please create an [issue](http
 
 ---
 
+## [Fluxer](https://github.com/fluxerapp/fluxer) by fluxerapp
+
+[` 🔵 Get this Project `](https://github.com/fluxerapp/fluxer)
+
+| Login page | Server home |
+| --- | --- |
+| <img src="images/Fluxer/Fluxer-login-tab.png" alt="Fluxer Login page" width="480" /> | <img src="https://github.com/fluxerapp/fluxer/blob/refactor/media/app-showcase.png?raw=true" alt="Fluxer Server home" width="480" /> |
+
+---
+
 ## [Commet/Matrix](https://github.com/commetchat/commet) by commetchat
 
 [` 🔵 Get this Project `](https://github.com/commetchat/commet)

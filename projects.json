@@ -150,14 +150,15 @@
       "logo_url": "https://avatars.githubusercontent.com/u/40896559",
       "logo_alt": "DCTS logo",
       "demo": "ok",
+      "demo_url": "https://chat.network-z.com/",
       "freeness": "10",
       "web_app": "ok",
       "android_app": "x",
       "ios_app": "x",
       "desktop_app": "ok",
       "voice_chat": "ok",
-      "noise_cancelling": "x",
-      "video_chat": "x",
+      "noise_cancelling": "ok",
+      "video_chat": "ok",
       "file_sharing": "ok",
       "channels_rooms": "ok",
       "user_roles_permissions": "ok",
@@ -250,7 +251,7 @@
       "web_app": "ok",
       "android_app": "wip",
       "ios_app": "wip",
-      "desktop_app": "ok",
+      "desktop_app": "wip",
       "voice_chat": "ok",
       "noise_cancelling": "x",
       "video_chat": "wip",
@@ -287,7 +288,52 @@
       ],
       "license_custom": "GNU-AGPLv3",
       "notes": {
-        "freeness": "Stoat's freeness score is lower because while the server and client are open-source and free to host, the protocol is not open. This may affect long-term independence for server owners and communities if project direction changes."
+        "freeness": "Stoat's freeness score is lower because while the server and client are open-source and free to host, the protocol is not open. This may affect long-term independence for server owners and communities if project direction changes. It also has some controversies going on: https://www.reddit.com/r/dcts/comments/1rcjc7x/stoatrevolt_using_deceptive_tactics_and_banning/",
+        "desktop_app": "The Stoat desktop app needs to be recompiled to be used for selfhosting"
+      }
+    },
+    {
+      "name": "Fluxer",
+      "repo": "fluxerapp/fluxer",
+      "branch": "refactor",
+      "logo_url": "https://avatars.githubusercontent.com/u/241304524",
+      "logo_alt": "Fluxer Logo",
+      "demo": "ok",
+      "demo_url": "https://fluxer.gg/fluxer-hq",
+      "freeness": "10",
+      "web_app": "ok",
+      "android_app": "x",
+      "ios_app": "x",
+      "desktop_app": "ok",
+      "voice_chat": "ok",
+      "noise_cancelling": "x",
+      "video_chat": "ok",
+      "file_sharing": "ok",
+      "channels_rooms": "ok",
+      "user_roles_permissions": "ok",
+      "encryption": "4",
+      "ease_of_setup": "wip",
+      "screensharing": "ok",
+      "screensharing_audio": "ok",
+      "per_app_audio_sharing": "x",
+      "plugins": "x",
+      "stability": "wip",
+      "authentication_providers": "x",
+      "translation": "wip",
+      "ui_vote": "7",
+      "ui_images": [
+        {
+          "url": "images/Fluxer/Fluxer-login-tab.png",
+          "description": "Login page"
+        },
+        {
+          "url": "https://github.com/fluxerapp/fluxer/blob/refactor/media/app-showcase.png?raw=true",
+          "description": "Server home"
+        }
+      ],
+      "notes": {
+        "ease_of_setup": "Right now the guide is not done, everything is there to selfhost it but i advise to wait a bit for the official documentation",
+        "freeness": "There are premium subscription but they are server specific so if you self-host you're server it is completelly free"
       }
     },
     {
@@ -373,6 +419,10 @@
       "link": "features.md#ease-of-setup"
     },
     {
+      "name": "UI Vote",
+      "link": "ui_comparison/ui_comparison.md"
+    },
+    {
       "name": "Web App",
       "link": "features.md#web-app"
     },
@@ -443,10 +493,6 @@
     {
       "name": "Stability",
       "link": "features.md#stability"
-    },
-    {
-      "name": "UI Vote",
-      "link": "ui_comparison/ui_comparison.md"
     }
   ]
 }
