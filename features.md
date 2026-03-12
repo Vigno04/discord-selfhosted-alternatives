@@ -86,6 +86,12 @@ Can users share files within the platform?
 
 Does the platform support organizing conversations into channels or rooms?
 
+## Federation
+
+Does the platform support communication between independent self-hosted instances, so users can join or interact with remote communities from the same client/account?
+
+For this comparison, this means practical cross-instance interoperability for normal users, similar to Matrix-style federation. A project only gets a positive vote when the feature is available to use, not just planned.
+
 ## User Roles/Permissions
 
 Can user roles and permissions be defined and managed?

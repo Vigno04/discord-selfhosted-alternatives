@@ -40,6 +40,7 @@ Tip: Hover over emoji for additional information (🔗 link to related issue, �
 | [Per App Audio Sharing](features.md#per-app-audio-sharing) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [File Sharing](features.md#file-sharing) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Channels/Rooms](features.md#channels-rooms) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Federation](features.md#federation) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
 | [User Roles/Permissions](features.md#user-roles-permissions) | ✅ | 🚧 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Encryption](features.md#encryption) | 4️⃣ | 4️⃣ | 4️⃣ | 7️⃣ | 7️⃣ | 4️⃣ | 4️⃣ | 🔟 |
 | [Authentication Providers](features.md#authentication-providers) | ❌ | ❌ | 🚧 | ❌ | ❌ | ❌ | ❌ | ✅ |
