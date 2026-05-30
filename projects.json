@@ -207,8 +207,8 @@
       "android_app": "wip",
       "ios_app": "x",
       "desktop_app": "wip",
-      "voice_chat": "ok",      
-      "noise_cancelling": "ok",      
+      "voice_chat": "ok",
+      "noise_cancelling": "ok",
       "video_chat": "x",
       "file_sharing": "ok",
       "channels_rooms": "ok",
@@ -373,6 +373,50 @@
       "translation": "ok",
       "ui_vote": "8",
       "ui_images": []
+    },
+    {
+      "name": "Mezon",
+      "repo": "mezonai/mezon",
+      "branch": "main",
+      "logo_url": "https://cdn.mezon.ai/landing-page-mezon/logodefault.webp",
+      "logo_alt": "Mezon Logo",
+      "demo": "ok",
+      "demo_url": "https://mezon.ai/",
+      "freeness": "7",
+      "web_app": "ok",
+      "android_app": "ok",
+      "ios_app": "ok",
+      "desktop_app": "ok",
+      "voice_chat": "ok",
+      "noise_cancelling": "ok",
+      "video_chat": "ok",
+      "file_sharing": "ok",
+      "channels_rooms": "ok",
+      "federation": "x",
+      "user_roles_permissions": "ok",
+      "encryption": "9",
+      "ease_of_setup": "4",
+      "screensharing": "ok",
+      "screensharing_audio": "ok",
+      "per_app_audio_sharing": "x",
+      "plugins": "ok",
+      "stability": "ok",
+      "authentication_providers": "ok",
+      "translation": "ok",
+      "ui_vote": "8",
+      "ui_images": [
+        {
+          "url": "images/Mezon/Mezon-login-ui.png",
+          "description": "Login UI"
+        }
+      ],
+      "notes": {
+        "freeness": "All clients (web, desktop, Android, iOS) are MIT open-source, but the server backend is not publicly available for self-hosting. Has built-in monetization and premium membership features.",
+        "ease_of_setup": "Client development setup is straightforward (yarn install), but no public self-hosting guide for the server backend yet.",
+        "encryption": "E2E encryption for messages, voice and video. Zero-knowledge architecture with client-side encryption, TLS 1.3, and SQLCipher for local storage.",
+        "noise_cancelling": "AI-powered noise cancellation via mezon-call-translation service"
+      },
+      "license_custom": "MIT"
     }
   ],
   "features": [
