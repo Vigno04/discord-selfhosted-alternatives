@@ -37,11 +37,11 @@ If an image is no longer available or out of date, please create an [issue](http
 
 | PocketBase Login | Chatting interface |
 | --- | --- |
-| <img src="images/Sunburn/Sunburn-pocketbase.png" alt="Sunburn PocketBase Login" width="480" /> | <img src="https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/alicecanchat.png" alt="Sunburn Chatting interface" width="480" /> |
+| <img src="images/Sunburn/Sunburn-pocketbase.png" alt="Sunburn PocketBase Login" width="480" /> | <img src="https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/aliceandbob.png" alt="Sunburn Chatting interface" width="480" /> |
 
-| Calling interface | Server ui |
+| Settings | Server ui |
 | --- | --- |
-| <img src="https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/calling.png" alt="Sunburn Calling interface" width="480" /> | <img src="https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/server.png" alt="Sunburn Server ui" width="480" /> |
+| <img src="https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/authsettings.png" alt="Sunburn Settings" width="480" /> | <img src="https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/dashboard.png" alt="Sunburn Server ui" width="480" /> |
 
 ---
 
@@ -91,9 +91,13 @@ If an image is no longer available or out of date, please create an [issue](http
 
 [` 🔵 Get this Project `](https://github.com/fluxerapp/fluxer)
 
-| Login page | Server home |
+| Login page | Desktop App |
 | --- | --- |
-| <img src="images/Fluxer/Fluxer-login-tab.png" alt="Fluxer Login page" width="480" /> | <img src="https://github.com/fluxerapp/fluxer/blob/main/media/app-showcase.png?raw=true" alt="Fluxer Server home" width="480" /> |
+| <img src="images/Fluxer/Fluxer-login-tab.png" alt="Fluxer Login page" width="480" /> | <img src="https://fluxerstatic.com/marketing/screenshots/desktop-1920w.avif?v=5" alt="Fluxer Desktop App" width="480" /> |
+
+| Mobile App | |
+| --- | --- |
+| <img src="https://fluxerstatic.com/marketing/screenshots/mobile-480w.avif?v=5" alt="Fluxer Mobile App" width="480" /> | |
 
 ---
 
