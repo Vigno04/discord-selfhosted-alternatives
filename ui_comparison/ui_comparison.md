@@ -93,7 +93,7 @@ If an image is no longer available or out of date, please create an [issue](http
 
 | Login page | Server home |
 | --- | --- |
-| <img src="images/Fluxer/Fluxer-login-tab.png" alt="Fluxer Login page" width="480" /> | <img src="https://github.com/fluxerapp/fluxer/blob/refactor/media/app-showcase.png?raw=true" alt="Fluxer Server home" width="480" /> |
+| <img src="images/Fluxer/Fluxer-login-tab.png" alt="Fluxer Login page" width="480" /> | <img src="https://github.com/fluxerapp/fluxer/blob/main/media/app-showcase.png?raw=true" alt="Fluxer Server home" width="480" /> |
 
 ---
 

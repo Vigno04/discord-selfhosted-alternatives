@@ -301,18 +301,18 @@
     {
       "name": "Fluxer",
       "repo": "fluxerapp/fluxer",
-      "branch": "refactor",
+      "branch": "main",
       "logo_url": "https://avatars.githubusercontent.com/u/241304524",
       "logo_alt": "Fluxer Logo",
       "demo": "ok",
-      "demo_url": "https://fluxer.gg/fluxer-hq",
+      "demo_url": "https://web.canary.fluxer.app",
       "freeness": "10",
       "web_app": "ok",
       "android_app": "x",
       "ios_app": "x",
       "desktop_app": "ok",
       "voice_chat": "ok",
-      "noise_cancelling": "x",
+      "noise_cancelling": "ok",
       "video_chat": "ok",
       "file_sharing": "ok",
       "channels_rooms": "ok",
@@ -322,11 +322,11 @@
       "ease_of_setup": "wip",
       "screensharing": "ok",
       "screensharing_audio": "ok",
-      "per_app_audio_sharing": "x",
+      "per_app_audio_sharing": "ok",
       "plugins": "x",
       "stability": "wip",
-      "authentication_providers": "x",
-      "translation": "wip",
+      "authentication_providers": "ok",
+      "translation": "ok",
       "ui_vote": "7",
       "ui_images": [
         {
@@ -334,13 +334,14 @@
           "description": "Login page"
         },
         {
-          "url": "https://github.com/fluxerapp/fluxer/blob/refactor/media/app-showcase.png?raw=true",
+          "url": "https://github.com/fluxerapp/fluxer/blob/main/media/app-showcase.png?raw=true",
           "description": "Server home"
         }
       ],
+      "license_custom": "GNU-AGPLv3",
       "notes": {
-        "ease_of_setup": "Right now the guide is not done, everything is there to selfhost it but i advise to wait a bit for the official documentation",
-        "freeness": "There are premium subscription but they are server specific so if you self-host you're server it is completelly free"
+        "ease_of_setup": "As stated in their README (https://github.com/fluxerapp/fluxer), they are currently working to finalise the API and self-hosting documentation. It is advised to use the Canary client or wait for the stable release.",
+        "freeness": "Licensed under AGPLv3. There are premium subscriptions but they are server specific, so self-hosting your server is completely free."
       }
     },
     {
