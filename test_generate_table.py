@@ -374,8 +374,8 @@ class TestGenerateDefaultRow(unittest.TestCase):
 
         result = generate_default_row(feature, projects)
 
-        self.assertIn("[8️⃣](https://github.com/user/app/releases)", result)
-        self.assertIn("[❌](https://github.com/user/app/issues/123)", result)
+        self.assertIn("8️⃣ [🔗](https://github.com/user/app/releases)", result)
+        self.assertIn("❌ [🔗](https://github.com/user/app/issues/123)", result)
 
     def test_default_row_no_link(self):
         """Test default row without feature link."""
