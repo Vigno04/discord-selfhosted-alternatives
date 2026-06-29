@@ -95,9 +95,9 @@ If an image is no longer available or out of date, please create an [issue](http
 | --- | --- |
 | <img src="images/Fluxer/Fluxer-login-tab.png" alt="Fluxer Login page" width="480" /> | <img src="https://fluxerstatic.com/marketing/screenshots/desktop-1920w.avif?v=5" alt="Fluxer Desktop App" width="480" /> |
 
-| Mobile App | |
+| Mobile App |  |
 | --- | --- |
-| <img src="https://fluxerstatic.com/marketing/screenshots/mobile-480w.avif?v=5" alt="Fluxer Mobile App" width="480" /> | |
+| <img src="https://fluxerstatic.com/marketing/screenshots/mobile-480w.avif?v=5" alt="Fluxer Mobile App" width="480" /> |  |
 
 ---
 

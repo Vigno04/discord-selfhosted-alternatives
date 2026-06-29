@@ -213,7 +213,7 @@ def generate_default_row(feature, projects):
         # Check if there's a URL field for this feature (even for X/❌ to link to reason/issue)
         if feature_url_key in project and feature_key != "ui_vote":
             url = project[feature_url_key]
-            cell = f"[{cell}]({url})"
+            cell = f"{cell} [🔗]({url})"
 
         # Check for notes/tooltip — renders an ⚠️ icon with a hover title
         notes = project.get("notes", {})

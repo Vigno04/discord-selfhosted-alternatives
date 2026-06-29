@@ -10,7 +10,8 @@
       "demo_url": "https://demo.sharkord.com/",
       "freeness": "10",
       "web_app": "ok",
-      "android_app": "x",
+      "android_app": "ok",
+      "android_app_url": "https://github.com/Vigno04/sharkord-android/releases",
       "ios_app": "x",
       "desktop_app": "x",
       "voice_chat": "ok",
@@ -47,7 +48,10 @@
           "url": "images/Sharkord/Sharkord-voice-chat.png",
           "description": "Voice chat"
         }
-      ]
+      ],
+      "notes": {
+        "android_app": "I creted the android app but since right now is the only avaiable i will include it"
+      }
     },
     {
       "name": "Spacebar",
@@ -133,15 +137,15 @@
           "description": "PocketBase Login"
         },
         {
-          "url": "https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/alicecanchat.png",
+          "url": "https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/aliceandbob.png",
           "description": "Chatting interface"
         },
         {
-          "url": "https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/calling.png",
-          "description": "Calling interface"
+          "url": "https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/authsettings.png",
+          "description": "Settings"
         },
         {
-          "url": "https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/server.png",
+          "url": "https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/dashboard.png",
           "description": "Server ui"
         }
       ]
@@ -159,6 +163,7 @@
       "android_app": "x",
       "ios_app": "x",
       "desktop_app": "ok",
+      "desktop_app_url": "https://github.com/hackthedev/dcts-client-shipping",
       "voice_chat": "ok",
       "noise_cancelling": "ok",
       "video_chat": "ok",
@@ -207,8 +212,8 @@
       "android_app": "wip",
       "ios_app": "x",
       "desktop_app": "wip",
-      "voice_chat": "ok",      
-      "noise_cancelling": "ok",      
+      "voice_chat": "ok",
+      "noise_cancelling": "ok",
       "video_chat": "x",
       "file_sharing": "ok",
       "channels_rooms": "ok",
@@ -311,6 +316,7 @@
       "android_app": "x",
       "ios_app": "x",
       "desktop_app": "ok",
+      "desktop_app_url": "https://canary.fluxer.app/download",
       "voice_chat": "ok",
       "noise_cancelling": "ok",
       "video_chat": "ok",
@@ -334,8 +340,12 @@
           "description": "Login page"
         },
         {
-          "url": "https://github.com/fluxerapp/fluxer/blob/main/media/app-showcase.png?raw=true",
-          "description": "Server home"
+          "url": "https://fluxerstatic.com/marketing/screenshots/desktop-1920w.avif?v=5",
+          "description": "Desktop App"
+        },
+        {
+          "url": "https://fluxerstatic.com/marketing/screenshots/mobile-480w.avif?v=5",
+          "description": "Mobile App"
         }
       ],
       "license_custom": "GNU-AGPLv3",
@@ -354,8 +364,10 @@
       "freeness": "10",
       "web_app": "ok",
       "android_app": "ok",
+      "android_app_url": "https://commet.chat/install",
       "ios_app": "wip",
       "desktop_app": "ok",
+      "desktop_app_url": "https://commet.chat/install",
       "voice_chat": "ok",
       "noise_cancelling": "x",
       "video_chat": "ok",
