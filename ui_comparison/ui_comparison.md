@@ -109,3 +109,11 @@ No images taken for now
 
 ---
 
+## [Zooid](https://github.com/zooid-ai/zooid) by zooid-ai
+
+[` 🔵 Get this Project `](https://github.com/zooid-ai/zooid)
+
+No images taken for now
+
+---
+
