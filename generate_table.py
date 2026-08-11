@@ -409,7 +409,7 @@ def validate_projects_json(data):
 
 
 def generate_readme(
-    template_file="readme.tpl", output_file="readme.md", json_file="projects.json"
+    template_file="readme.tpl", output_file="README.md", json_file="projects.json"
 ):
     """Generate README.md from template and JSON data."""
     # Load data

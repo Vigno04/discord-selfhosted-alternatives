@@ -31,20 +31,6 @@ If an image is no longer available or out of date, please create an [issue](http
 
 ---
 
-## [Sunburn](https://github.com/sunburnco/sunburn) by sunburnco
-
-[` 🔵 Get this Project `](https://github.com/sunburnco/sunburn)
-
-| PocketBase Login | Chatting interface |
-| --- | --- |
-| <img src="images/Sunburn/Sunburn-pocketbase.png" alt="Sunburn PocketBase Login" width="480" /> | <img src="https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/aliceandbob.png" alt="Sunburn Chatting interface" width="480" /> |
-
-| Settings | Server ui |
-| --- | --- |
-| <img src="https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/authsettings.png" alt="Sunburn Settings" width="480" /> | <img src="https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/dashboard.png" alt="Sunburn Server ui" width="480" /> |
-
----
-
 ## [DCTS](https://github.com/hackthedev/dcts-shipping) by hackthedev
 
 [` 🔵 Get this Project `](https://github.com/hackthedev/dcts-shipping)

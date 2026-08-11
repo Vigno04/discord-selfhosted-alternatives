@@ -103,54 +103,6 @@
       ]
     },
     {
-      "name": "Sunburn",
-      "repo": "sunburnco/sunburn",
-      "branch": "master",
-      "logo_url": "https://avatars.githubusercontent.com/u/219320217",
-      "logo_alt": "Sunburn logo",
-      "demo": "x",
-      "freeness": "10",
-      "web_app": "ok",
-      "android_app": "x",
-      "ios_app": "x",
-      "desktop_app": "x",
-      "voice_chat": "ok",
-      "noise_cancelling": "ok",
-      "video_chat": "ok",
-      "file_sharing": "ok",
-      "channels_rooms": "ok",
-      "federation": "x",
-      "user_roles_permissions": "ok",
-      "encryption": "4",
-      "ease_of_setup": "3",
-      "screensharing": "ok",
-      "screensharing_audio": "ok",
-      "per_app_audio_sharing": "x",
-      "plugins": "x",
-      "stability": "wip",
-      "authentication_providers": "wip",
-      "translation": "x",
-      "ui_vote": "6",
-      "ui_images": [
-        {
-          "url": "images/Sunburn/Sunburn-pocketbase.png",
-          "description": "PocketBase Login"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/aliceandbob.png",
-          "description": "Chatting interface"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/authsettings.png",
-          "description": "Settings"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/sunburnco/sunburn/master/.images/dashboard.png",
-          "description": "Server ui"
-        }
-      ]
-    },
-    {
       "name": "DCTS",
       "repo": "hackthedev/dcts-shipping",
       "branch": "dev",
@@ -427,7 +379,8 @@
         "ios_app": "Built and on TestFlight; not yet published to the store.",
         "plugins": "No plugin system; extended via a token-authenticated bot API and webhooks instead.",
         "federation": "Deliberately out of scope - one instance is one community."
-      }
+      },
+      "ui_vote": "7"
     }
   ],
   "features": [
