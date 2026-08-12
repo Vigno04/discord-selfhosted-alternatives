@@ -388,8 +388,12 @@
           "description": "A text channel"
         },
         {
+          "url": "https://sonofatech.com/outpost/screenshots/channels-light.png",
+          "description": "The Daylight light theme"
+        },
+        {
           "url": "https://sonofatech.com/outpost/screenshots/voice.png",
-          "description": "Voice channel with a screen share"
+          "description": "A voice channel, joined"
         },
         {
           "url": "https://sonofatech.com/outpost/screenshots/dms.png",
@@ -401,7 +405,7 @@
         },
         {
           "url": "https://sonofatech.com/outpost/screenshots/usersettings.png",
-          "description": "User settings"
+          "description": "User settings: theme and density"
         }
       ],
       "ui_vote": "7"
