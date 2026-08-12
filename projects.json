@@ -382,6 +382,28 @@
         "federation": "Deliberately out of scope - one instance is one community.",
         "authentication_providers": "OpenID Connect (Authorization Code + PKCE) - Authentik, Authelia, Keycloak, Zitadel, Okta, Entra. Off until configured."
       },
+      "ui_images": [
+        {
+          "url": "https://sonofatech.com/outpost/screenshots/channels.png",
+          "description": "A text channel"
+        },
+        {
+          "url": "https://sonofatech.com/outpost/screenshots/voice.png",
+          "description": "Voice channel with a screen share"
+        },
+        {
+          "url": "https://sonofatech.com/outpost/screenshots/dms.png",
+          "description": "Direct messages, with encryption markers"
+        },
+        {
+          "url": "https://sonofatech.com/outpost/screenshots/settings.png",
+          "description": "Instance settings"
+        },
+        {
+          "url": "https://sonofatech.com/outpost/screenshots/usersettings.png",
+          "description": "User settings"
+        }
+      ],
       "ui_vote": "7"
     }
   ],

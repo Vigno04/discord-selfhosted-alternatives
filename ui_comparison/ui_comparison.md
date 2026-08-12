@@ -99,7 +99,17 @@ No images taken for now
 
 [` 🔵 Get this Project `](https://github.com/blindrun/outpost-chat)
 
-No images taken for now
+| A text channel | Voice channel with a screen share |
+| --- | --- |
+| <img src="https://sonofatech.com/outpost/screenshots/channels.png" alt="Outpost A text channel" width="480" /> | <img src="https://sonofatech.com/outpost/screenshots/voice.png" alt="Outpost Voice channel with a screen share" width="480" /> |
+
+| Direct messages, with encryption markers | Instance settings |
+| --- | --- |
+| <img src="https://sonofatech.com/outpost/screenshots/dms.png" alt="Outpost Direct messages, with encryption markers" width="480" /> | <img src="https://sonofatech.com/outpost/screenshots/settings.png" alt="Outpost Instance settings" width="480" /> |
+
+| User settings |  |
+| --- | --- |
+| <img src="https://sonofatech.com/outpost/screenshots/usersettings.png" alt="Outpost User settings" width="480" /> |  |
 
 ---
 
