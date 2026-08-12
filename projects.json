@@ -356,7 +356,7 @@
       "ios_app": "wip",
       "voice_chat": "ok",
       "noise_cancelling": "x",
-      "video_chat": "x",
+      "video_chat": "ok",
       "screensharing": "ok",
       "screensharing_audio": "wip",
       "per_app_audio_sharing": "x",
@@ -366,20 +366,48 @@
       "user_roles_permissions": "ok",
       "encryption": "5",
       "encryption_url": "https://github.com/blindrun/outpost-chat/blob/main/CHANGELOG.md",
-      "authentication_providers": "x",
+      "authentication_providers": "ok",
+      "authentication_providers_url": "https://github.com/blindrun/outpost-chat/blob/main/deploy/README.md#single-sign-on-optional",
       "plugins": "x",
       "translation": "x",
       "stability": "wip",
       "notes": {
         "encryption": "Direct messages are end-to-end encrypted (opt-in, ECDH P-256, keys generated client-side). Channel messages are not E2E encrypted.",
         "noise_cancelling": "No dedicated noise suppression; relies on browser/WebRTC defaults only.",
-        "video_chat": "Screen sharing works, but there is no camera video yet.",
+        "video_chat": "Camera video in voice channels on web, desktop and Android; not yet on iOS.",
         "screensharing_audio": "Desktop app shares system audio on Windows only.",
         "android_app": "Built and in closed testing; not yet published to the store.",
         "ios_app": "Built and on TestFlight; not yet published to the store.",
         "plugins": "No plugin system; extended via a token-authenticated bot API and webhooks instead.",
-        "federation": "Deliberately out of scope - one instance is one community."
+        "federation": "Deliberately out of scope - one instance is one community.",
+        "authentication_providers": "OpenID Connect (Authorization Code + PKCE) - Authentik, Authelia, Keycloak, Zitadel, Okta, Entra. Off until configured."
       },
+      "ui_images": [
+        {
+          "url": "https://sonofatech.com/outpost/screenshots/channels.png",
+          "description": "A text channel"
+        },
+        {
+          "url": "https://sonofatech.com/outpost/screenshots/channels-light.png",
+          "description": "The Daylight light theme"
+        },
+        {
+          "url": "https://sonofatech.com/outpost/screenshots/voice.png",
+          "description": "A voice channel, joined"
+        },
+        {
+          "url": "https://sonofatech.com/outpost/screenshots/dms.png",
+          "description": "Direct messages, with encryption markers"
+        },
+        {
+          "url": "https://sonofatech.com/outpost/screenshots/settings.png",
+          "description": "Instance settings"
+        },
+        {
+          "url": "https://sonofatech.com/outpost/screenshots/usersettings.png",
+          "description": "User settings: theme and density"
+        }
+      ],
       "ui_vote": "7"
     }
   ],
