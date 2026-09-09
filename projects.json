@@ -381,6 +381,70 @@
         "federation": "Deliberately out of scope - one instance is one community."
       },
       "ui_vote": "7"
+    },
+    {
+      "name": "Backspace",
+      "repo": "TheZwiss/backspace",
+      "branch": "main",
+      "logo_url": "https://raw.githubusercontent.com/TheZwiss/backspace/main/assets/brand/app-icon-x2.png",
+      "logo_alt": "Backspace Logo",
+      "demo": "x",
+      "freeness": "10",
+      "ease_of_setup": "9",
+      "web_app": "ok",
+      "desktop_app": "ok",
+      "desktop_app_url": "https://github.com/TheZwiss/backspace/releases/latest",
+      "android_app": "x",
+      "ios_app": "x",
+      "voice_chat": "ok",
+      "noise_cancelling": "ok",
+      "video_chat": "ok",
+      "screensharing": "ok",
+      "screensharing_audio": "ok",
+      "per_app_audio_sharing": "x",
+      "file_sharing": "ok",
+      "channels_rooms": "ok",
+      "federation": "ok",
+      "federation_url": "https://github.com/TheZwiss/backspace/blob/main/docs/systems/federation.md",
+      "user_roles_permissions": "ok",
+      "encryption": "4",
+      "authentication_providers": "x",
+      "plugins": "x",
+      "translation": "ok",
+      "stability": "wip",
+      "ui_vote": "7",
+      "notes": {
+        "freeness": "AGPLv3. The full server, web and desktop stack is open-source; a separate commercial license exists for closed-source use but does not gate any self-hosted functionality.",
+        "federation": "Instances peer over an HMAC-signed server-to-server protocol: DMs, friends, reactions and file replication cross instances. Spaces are not replicated; a remote space is joined from the same client through the Connections UI.",
+        "android_app": "The web UI is mobile-responsive, but there is no native mobile client yet.",
+        "ios_app": "The web UI is mobile-responsive, but there is no native mobile client yet.",
+        "noise_cancelling": "RNNoise suppression, toggleable per user.",
+        "screensharing_audio": "System audio loopback on Windows, macOS 13+ and Linux (PulseAudio or pipewire-pulse) in the desktop app; in the browser it follows what the picker offers.",
+        "per_app_audio_sharing": "Display or single-window capture only; audio cannot be picked per application.",
+        "encryption": "HTTPS/WSS in transit and encrypted media transport for voice. Messages are stored unencrypted on the instance; there is no end-to-end encryption.",
+        "authentication_providers": "Local accounts only (JWT + bcrypt). No OAuth, OIDC or LDAP.",
+        "plugins": "No plugin system.",
+        "translation": "English, German and Russian, with i18next catalogs per surface.",
+        "stability": "Tagged releases on a regular cadence and instances running in production, but the project is young and still under active development."
+      },
+      "ui_images": [
+        {
+          "url": "images/Backspace/Backspace-server-home-page.webp",
+          "description": "Server home"
+        },
+        {
+          "url": "images/Backspace/Backspace-voice-chat.webp",
+          "description": "Voice chat"
+        },
+        {
+          "url": "images/Backspace/Backspace-space-discovery.webp",
+          "description": "Space discovery"
+        },
+        {
+          "url": "images/Backspace/Backspace-federation-panel.webp",
+          "description": "Federation panel"
+        }
+      ]
     }
   ],
   "features": [
