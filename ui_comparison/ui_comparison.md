@@ -112,3 +112,17 @@ No images taken for now
 | <img src="images/Outpost/settings.jpg" alt="Outpost Instance settings" width="480" /> | <img src="images/Outpost/usersettings.jpg" alt="Outpost User settings: theme and density" width="480" /> |
 
 ---
+
+## [Valour](https://github.com/Valour-Software/Valour) by Valour-Software
+
+[` 🔵 Get this Project `](https://github.com/Valour-Software/Valour)
+
+| Planet channels and members | Chat and messages |
+| --- | --- |
+| <img src="images/Valour/in-planet.png" alt="Valour Planet channels and members" width="480" /> | <img src="images/Valour/chat.png" alt="Valour Chat and messages" width="480" /> |
+
+| Home screen | Themes and appearance |
+| --- | --- |
+| <img src="images/Valour/home-screen.png" alt="Valour Home screen" width="480" /> | <img src="images/Valour/themes.png" alt="Valour Themes and appearance" width="480" /> |
+
+---

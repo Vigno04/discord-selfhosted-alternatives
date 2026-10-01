@@ -409,6 +409,72 @@
         }
       ],
       "ui_vote": "7"
+    },
+    {
+      "name": "Valour",
+      "repo": "Valour-Software/Valour",
+      "branch": "main",
+      "logo_url": "https://raw.githubusercontent.com/Valour-Software/Valour/main/Valour/Client/wwwroot/media/logo/logo-square-256.png",
+      "logo_alt": "Valour Logo",
+      "demo": "ok",
+      "demo_url": "https://app.valour.gg",
+      "freeness": "9",
+      "ease_of_setup": "6",
+      "web_app": "ok",
+      "desktop_app": "ok",
+      "desktop_app_url": "https://github.com/Valour-Software/Valour/releases/latest",
+      "android_app": "ok",
+      "android_app_url": "https://github.com/Valour-Software/Valour/releases/latest",
+      "ios_app": "x",
+      "voice_chat": "ok",
+      "noise_cancelling": "x",
+      "video_chat": "ok",
+      "screensharing": "ok",
+      "screensharing_audio": "wip",
+      "per_app_audio_sharing": "x",
+      "file_sharing": "ok",
+      "channels_rooms": "ok",
+      "federation": "ok",
+      "federation_url": "https://github.com/Valour-Software/Valour/blob/main/Docs/Federation.md",
+      "user_roles_permissions": "ok",
+      "encryption": "7",
+      "encryption_url": "https://github.com/Valour-Software/Valour/blob/main/Docs/EndToEndEncryption.md",
+      "authentication_providers": "wip",
+      "authentication_providers_url": "https://github.com/Valour-Software/Valour/blob/main/Docs/SignInMethods.md",
+      "plugins": "x",
+      "translation": "x",
+      "stability": "wip",
+      "notes": {
+        "encryption": "Messages in direct chats, group chats, and planet channels are end-to-end encrypted (X25519/Ed25519 via BouncyCastle). Public threads and wikis are not E2EE.",
+        "noise_cancelling": "No dedicated noise suppression; relies on browser/WebRTC defaults.",
+        "screensharing_audio": "Screen sharing captures tab/system audio where supported by browser getDisplayMedia. Desktop app uses WebView2/WebKit without native loopback capture.",
+        "per_app_audio_sharing": "Not supported. The desktop client runs on BlazorWebView without native process audio hooks.",
+        "android_app": "Available as a signed APK in GitHub releases.",
+        "federation": "Community node architecture: independent self-hosted nodes host planets linked to a central account/registry hub.",
+        "authentication_providers": "Only supports hardcoded Google and Discord OAuth, password, and device keys. Does not support generic OpenID Connect (OIDC), LDAP, or self-hosted identity providers (Authentik, Keycloak, Authelia).",
+        "plugins": "No plugin system; extended via bot SDK and webhooks.",
+        "freeness": "Licensed under AGPLv3. The stack is fully open-source with Docker Compose, but trademark restrictions apply to derivative branding.",
+        "ease_of_setup": "Requires multiple containers (Valour, PostgreSQL, Redis, Caddy), mandatory key generation (DATAPROTECTION__KEK), and a separate LiveKit setup with specific port ranges for self-hosted voice."
+      },
+      "ui_images": [
+        {
+          "url": "images/Valour/in-planet.png",
+          "description": "Planet channels and members"
+        },
+        {
+          "url": "images/Valour/chat.png",
+          "description": "Chat and messages"
+        },
+        {
+          "url": "images/Valour/home-screen.png",
+          "description": "Home screen"
+        },
+        {
+          "url": "images/Valour/themes.png",
+          "description": "Themes and appearance"
+        }
+      ],
+      "ui_vote": "8"
     }
   ],
   "features": [
