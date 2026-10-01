@@ -34,7 +34,7 @@ Tip: Hover over emoji for additional information (🔗 link to related issue, �
 | [iOS App](features.md#ios-app) | ❌ | ❌ | ❌ | ❌ | 🚧 | ❌ | 🚧 | 🚧 [⚠️](features.md#ios-app "Built and on TestFlight; not yet published to the store.") |
 | [Voice Chat](features.md#voice-chat) | ✅ | 🚧 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Noise Cancelling](features.md#noise-cancelling) | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ [⚠️](features.md#noise-cancelling "No dedicated noise suppression; relies on browser/WebRTC defaults only.") |
-| [Video Chat](features.md#video-chat) | ✅ | 🚧 | ✅ | ❌ | 🚧 | ✅ | ✅ | ❌ [⚠️](features.md#video-chat "Screen sharing works, but there is no camera video yet.") |
+| [Video Chat](features.md#video-chat) | ✅ | 🚧 | ✅ | ❌ | 🚧 | ✅ | ✅ | ✅ [⚠️](features.md#video-chat "Camera video in voice channels on web, desktop and Android; not yet on iOS.") |
 | [Screensharing](features.md#screensharing) | ✅ | ❌ | ✅ | ✅ | 🚧 | ✅ | ✅ | ✅ |
 | [Screensharing Audio](features.md#screensharing-audio) | ✅ | ❌ | ✅ | ✅ | 🚧 | ✅ | ❌ | 🚧 [⚠️](features.md#screensharing-audio "Desktop app shares system audio on Windows only.") |
 | [Per App Audio Sharing](features.md#per-app-audio-sharing) | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
@@ -43,7 +43,7 @@ Tip: Hover over emoji for additional information (🔗 link to related issue, �
 | [Federation](features.md#federation) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ [⚠️](features.md#federation "Deliberately out of scope - one instance is one community.") |
 | [User Roles/Permissions](features.md#user-roles-permissions) | ✅ | 🚧 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Encryption](features.md#encryption) | 4️⃣ | 4️⃣ | 7️⃣ | 7️⃣ | 4️⃣ | 4️⃣ | 🔟 | 5️⃣ [🔗](https://github.com/blindrun/outpost-chat/blob/main/CHANGELOG.md) [⚠️](features.md#encryption "Direct messages are end-to-end encrypted (opt-in, ECDH P-256, keys generated client-side). Channel messages are not E2E encrypted.") |
-| [Authentication Providers](features.md#authentication-providers) | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ |
+| [Authentication Providers](features.md#authentication-providers) | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ [🔗](https://github.com/blindrun/outpost-chat/blob/main/deploy/README.md#single-sign-on-optional) [⚠️](features.md#authentication-providers "OpenID Connect (Authorization Code + PKCE) - Authentik, Authelia, Keycloak, Zitadel, Okta, Entra. Off until configured.") |
 | [Plugins](features.md#plugins) | 🚧 | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ [⚠️](features.md#plugins "No plugin system; extended via a token-authenticated bot API and webhooks instead.") |
 | [Translation](features.md#translation) | ❌ | 🚧 | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ |
 | [Stability](features.md#stability) | 🚧 | 🚧 | 🚧 | ✅ | ✅ | 🚧 | 🚧 | 🚧 |
