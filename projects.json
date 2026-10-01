@@ -292,11 +292,11 @@
           "description": "Login page"
         },
         {
-          "url": "https://fluxerstatic.com/marketing/screenshots/desktop-1920w.avif?v=5",
+          "url": "images/Fluxer/Fluxer-desktop.avif",
           "description": "Desktop App"
         },
         {
-          "url": "https://fluxerstatic.com/marketing/screenshots/mobile-480w.avif?v=5",
+          "url": "images/Fluxer/Fluxer-mobile.webp",
           "description": "Mobile App"
         }
       ],
@@ -384,27 +384,27 @@
       },
       "ui_images": [
         {
-          "url": "https://sonofatech.com/outpost/screenshots/channels.png",
+          "url": "images/Outpost/channels.jpg",
           "description": "A text channel"
         },
         {
-          "url": "https://sonofatech.com/outpost/screenshots/channels-light.png",
+          "url": "images/Outpost/channels-light.jpg",
           "description": "The Daylight light theme"
         },
         {
-          "url": "https://sonofatech.com/outpost/screenshots/voice.png",
+          "url": "images/Outpost/voice.jpg",
           "description": "A voice channel, joined"
         },
         {
-          "url": "https://sonofatech.com/outpost/screenshots/dms.png",
+          "url": "images/Outpost/dms.jpg",
           "description": "Direct messages, with encryption markers"
         },
         {
-          "url": "https://sonofatech.com/outpost/screenshots/settings.png",
+          "url": "images/Outpost/settings.jpg",
           "description": "Instance settings"
         },
         {
-          "url": "https://sonofatech.com/outpost/screenshots/usersettings.png",
+          "url": "images/Outpost/usersettings.jpg",
           "description": "User settings: theme and density"
         }
       ],

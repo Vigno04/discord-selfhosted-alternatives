@@ -345,7 +345,7 @@ def generate_ui_comparison_md(projects, output_file="ui_comparison/ui_comparison
         md += "---\n\n"
 
     with open(output_file, "w", encoding="utf-8") as f:
-        f.write(md)
+        f.write(md.rstrip() + "\n")
 
 
 def validate_projects_json(data):
@@ -409,7 +409,10 @@ def validate_projects_json(data):
 
 
 def generate_readme(
-    template_file="readme.tpl", output_file="README.md", json_file="projects.json"
+    template_file="readme.tpl",
+    output_file="README.md",
+    json_file="projects.json",
+    ui_comparison_file="ui_comparison/ui_comparison.md",
 ):
     """Generate README.md from template and JSON data."""
     # Load data
@@ -426,7 +429,8 @@ def generate_readme(
     table = generate_comparison_table(data)
 
     # Generate UI comparison
-    generate_ui_comparison_md(data["projects"])
+    if ui_comparison_file:
+        generate_ui_comparison_md(data["projects"], output_file=ui_comparison_file)
 
     # Replace placeholder in template
     output = template.replace("{{COMPARISON_TABLE}}", table)

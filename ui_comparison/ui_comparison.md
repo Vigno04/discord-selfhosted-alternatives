@@ -79,11 +79,11 @@ If an image is no longer available or out of date, please create an [issue](http
 
 | Login page | Desktop App |
 | --- | --- |
-| <img src="images/Fluxer/Fluxer-login-tab.png" alt="Fluxer Login page" width="480" /> | <img src="https://fluxerstatic.com/marketing/screenshots/desktop-1920w.avif?v=5" alt="Fluxer Desktop App" width="480" /> |
+| <img src="images/Fluxer/Fluxer-login-tab.png" alt="Fluxer Login page" width="480" /> | <img src="images/Fluxer/Fluxer-desktop.avif" alt="Fluxer Desktop App" width="480" /> |
 
 | Mobile App |  |
 | --- | --- |
-| <img src="https://fluxerstatic.com/marketing/screenshots/mobile-480w.avif?v=5" alt="Fluxer Mobile App" width="480" /> |  |
+| <img src="images/Fluxer/Fluxer-mobile.webp" alt="Fluxer Mobile App" width="480" /> |  |
 
 ---
 
@@ -101,15 +101,14 @@ No images taken for now
 
 | A text channel | The Daylight light theme |
 | --- | --- |
-| <img src="https://sonofatech.com/outpost/screenshots/channels.png" alt="Outpost A text channel" width="480" /> | <img src="https://sonofatech.com/outpost/screenshots/channels-light.png" alt="Outpost The Daylight light theme" width="480" /> |
+| <img src="images/Outpost/channels.jpg" alt="Outpost A text channel" width="480" /> | <img src="images/Outpost/channels-light.jpg" alt="Outpost The Daylight light theme" width="480" /> |
 
 | A voice channel, joined | Direct messages, with encryption markers |
 | --- | --- |
-| <img src="https://sonofatech.com/outpost/screenshots/voice.png" alt="Outpost A voice channel, joined" width="480" /> | <img src="https://sonofatech.com/outpost/screenshots/dms.png" alt="Outpost Direct messages, with encryption markers" width="480" /> |
+| <img src="images/Outpost/voice.jpg" alt="Outpost A voice channel, joined" width="480" /> | <img src="images/Outpost/dms.jpg" alt="Outpost Direct messages, with encryption markers" width="480" /> |
 
 | Instance settings | User settings: theme and density |
 | --- | --- |
-| <img src="https://sonofatech.com/outpost/screenshots/settings.png" alt="Outpost Instance settings" width="480" /> | <img src="https://sonofatech.com/outpost/screenshots/usersettings.png" alt="Outpost User settings: theme and density" width="480" /> |
+| <img src="images/Outpost/settings.jpg" alt="Outpost Instance settings" width="480" /> | <img src="images/Outpost/usersettings.jpg" alt="Outpost User settings: theme and density" width="480" /> |
 
 ---
-

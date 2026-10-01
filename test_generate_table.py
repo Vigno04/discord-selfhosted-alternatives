@@ -514,7 +514,7 @@ class TestReadmeConsistency(unittest.TestCase):
         temp_output = tempfile.mktemp(suffix=".md")
 
         try:
-            generate_readme("readme.tpl", temp_output, "projects.json")
+            generate_readme("readme.tpl", temp_output, "projects.json", ui_comparison_file=None)
 
             # Read the generated readme
             with open(temp_output, "r", encoding="utf-8") as f:
@@ -781,7 +781,7 @@ class TestGenerateReadme(unittest.TestCase):
         output_file = tempfile.mktemp(suffix=".md")
 
         try:
-            generate_readme(template_file, output_file, json_file)
+            generate_readme(template_file, output_file, json_file, ui_comparison_file=None)
             assertion_func(output_file)
         finally:
             os.unlink(template_file)
