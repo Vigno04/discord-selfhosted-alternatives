@@ -112,7 +112,7 @@
       "demo_url": "https://chat.network-z.com/",
       "freeness": "10",
       "web_app": "ok",
-      "android_app": "x",
+      "android_app": "ok",
       "ios_app": "x",
       "desktop_app": "ok",
       "desktop_app_url": "https://github.com/hackthedev/dcts-client-shipping",
@@ -150,7 +150,8 @@
           "url": "images/DCTS/DCTS-voice-chat.png",
           "description": "Voice chat"
         }
-      ]
+      ],
+      "android_app_url": "https://android.dcts.community"
     },
     {
       "name": "Haven",
