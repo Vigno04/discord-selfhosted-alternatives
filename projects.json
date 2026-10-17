@@ -481,11 +481,11 @@
       "name": "Backspace",
       "repo": "TheZwiss/backspace",
       "branch": "main",
-      "logo_url": "https://raw.githubusercontent.com/TheZwiss/backspace/main/assets/brand/app-icon-x2.png",
+      "logo_url": "https://raw.githubusercontent.com/TheZwiss/backspace/main/packages/web/public/icons/icon-192.png",
       "logo_alt": "Backspace Logo",
       "demo": "x",
       "freeness": "10",
-      "ease_of_setup": "9",
+      "ease_of_setup": "7",
       "web_app": "ok",
       "desktop_app": "ok",
       "desktop_app_url": "https://github.com/TheZwiss/backspace/releases/latest",
@@ -499,7 +499,7 @@
       "per_app_audio_sharing": "x",
       "file_sharing": "ok",
       "channels_rooms": "ok",
-      "federation": "ok",
+      "federation": "wip",
       "federation_url": "https://github.com/TheZwiss/backspace/blob/main/docs/systems/federation.md",
       "user_roles_permissions": "ok",
       "encryption": "4",
@@ -520,7 +520,8 @@
         "authentication_providers": "Local accounts only (JWT + bcrypt). No OAuth, OIDC or LDAP.",
         "plugins": "No plugin system.",
         "translation": "English, German and Russian, with i18next catalogs per surface.",
-        "stability": "Tagged releases on a regular cadence and instances running in production, but the project is young and still under active development."
+        "stability": "Tagged releases on a regular cadence and instances running in production, but the project is young and still under active development.",
+        "ease_of_setup": "Requires Docker Compose with Caddy auto-HTTPS, manual JWT secret generation, and a separate LiveKit container with host networking and custom livekit.yaml for voice/video."
       },
       "ui_images": [
         {
