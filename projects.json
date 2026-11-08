@@ -541,6 +541,73 @@
           "description": "Federation panel"
         }
       ]
+    },
+    {
+      "name": "Outcome",
+      "repo": "Skayloo/Outcome-source-blue",
+      "branch": "main",
+      "logo_url": "https://raw.githubusercontent.com/Skayloo/Outcome-source-blue/main/frontend/public/logo.png",
+      "logo_alt": "Outcome Logo",
+      "demo": "ok",
+      "demo_url": "https://outcome.ru/app",
+      "freeness": "8",
+      "ease_of_setup": "9",
+      "ease_of_setup_url": "https://github.com/Skayloo/Outcome",
+      "web_app": "ok",
+      "desktop_app": "ok",
+      "desktop_app_url": "https://outcome.ru/en#apps",
+      "android_app": "ok",
+      "android_app_url": "https://outcome.ru/en#apps",
+      "ios_app": "wip",
+      "voice_chat": "ok",
+      "noise_cancelling": "ok",
+      "video_chat": "ok",
+      "screensharing": "ok",
+      "screensharing_audio": "wip",
+      "per_app_audio_sharing": "x",
+      "file_sharing": "ok",
+      "channels_rooms": "ok",
+      "federation": "x",
+      "user_roles_permissions": "wip",
+      "encryption": "4",
+      "authentication_providers": "x",
+      "plugins": "x",
+      "translation": "ok",
+      "stability": "ok",
+      "notes": {
+        "demo": "The hosted service at outcome.ru runs the same client plus end-to-end encryption; personal accounts are free.",
+        "freeness": "The self-hosted edition is AGPL-3.0 and free to host. End-to-end encryption is only in the hosted outcome.ru service, not in the public code.",
+        "ease_of_setup": "One Docker Compose deploy kit (Caddy TLS, Postgres, Redis, Garage S3, LiveKit).",
+        "desktop_app": "Windows and macOS (Tauri), Linux (Electron); the apps sign in to any server.",
+        "android_app": "APK from outcome.ru; not on Google Play. Signs in to any server.",
+        "ios_app": "On TestFlight and in App Store review.",
+        "noise_cancelling": "RNNoise by default, DeepFilterNet as an option, both running on the device.",
+        "screensharing_audio": "Screen share asks the browser for audio, so Chromium can share tab or system audio; the macOS app cannot.",
+        "federation": "Not federated; one instance per organisation.",
+        "user_roles_permissions": "Fixed roles: owner, admin, moderator, member; no custom roles.",
+        "encryption": "Self-hosted edition: TLS in transit, no end-to-end encryption. The hosted outcome.ru service encrypts DMs, channels, files and calls end to end.",
+        "authentication_providers": "The self-hosted edition has e-mail/password sign-in only.",
+        "translation": "English and Russian.",
+        "stability": "In production at outcome.ru with weekly releases."
+      },
+      "ui_images": [
+        {
+          "url": "images/Outcome/channel.jpg",
+          "description": "A text channel (iPad)"
+        },
+        {
+          "url": "images/Outcome/voice.jpg",
+          "description": "A voice room"
+        },
+        {
+          "url": "images/Outcome/dms.jpg",
+          "description": "Direct messages"
+        },
+        {
+          "url": "images/Outcome/screenshare.jpg",
+          "description": "Screen sharing in a voice room"
+        }
+      ]
     }
   ],
   "features": [
